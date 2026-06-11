@@ -1,0 +1,5039 @@
+[
+  {
+    "matchup_id": 1620858185,
+    "home": "Mexico",
+    "away": "South Africa",
+    "start_time": "2026-06-11T19:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 2.025,
+      "lambda_away": 0.683,
+      "p_home": 0.6888,
+      "p_draw": 0.1961,
+      "p_away": 0.1151,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1368
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1351
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0933
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0923
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0922
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.949,
+      "lambda_away": 0.618,
+      "p_home": 0.6902,
+      "p_draw": 0.2011,
+      "p_away": 0.1087,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1496
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1457
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0947
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0925
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0901
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": false,
+      "same_1x2": true,
+      "lambda_home_delta": -0.076,
+      "lambda_away_delta": -0.064
+    }
+  },
+  {
+    "matchup_id": 1627277929,
+    "home": "South Korea",
+    "away": "Czechia",
+    "start_time": "2026-06-12T02:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 1.349,
+      "lambda_away": 1.236,
+      "p_home": 0.3944,
+      "p_draw": 0.2644,
+      "p_away": 0.3413,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1257
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1018
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0932
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0848
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0777
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.295,
+      "lambda_away": 1.193,
+      "p_home": 0.3893,
+      "p_draw": 0.2704,
+      "p_away": 0.3404,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1283
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1076
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0991
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0831
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0831
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.053,
+      "lambda_away_delta": -0.043
+    }
+  },
+  {
+    "matchup_id": 1627278050,
+    "home": "Canada",
+    "away": "Bosnia and Herzegovina",
+    "start_time": "2026-06-12T19:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 1.679,
+      "lambda_away": 0.994,
+      "p_home": 0.5343,
+      "p_draw": 0.2423,
+      "p_away": 0.2234,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.116
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1152
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0973
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0967
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0691
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.651,
+      "lambda_away": 0.905,
+      "p_home": 0.5494,
+      "p_draw": 0.2449,
+      "p_away": 0.2058,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1281
+        },
+        {
+          "score": "1-1",
+          "prob": 0.116
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1057
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0957
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0776
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.028,
+      "lambda_away_delta": -0.089
+    }
+  },
+  {
+    "matchup_id": 1620858178,
+    "home": "USA",
+    "away": "Paraguay",
+    "start_time": "2026-06-13T01:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 1.521,
+      "lambda_away": 1.015,
+      "p_home": 0.4898,
+      "p_draw": 0.2575,
+      "p_away": 0.2527,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1222
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1204
+        },
+        {
+          "score": "2-1",
+          "prob": 0.093
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0916
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0804
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.488,
+      "lambda_away": 0.95,
+      "p_home": 0.4972,
+      "p_draw": 0.2619,
+      "p_away": 0.2409,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.13
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1234
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0967
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0919
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0873
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.033,
+      "lambda_away_delta": -0.065
+    }
+  },
+  {
+    "matchup_id": 1620858176,
+    "home": "Qatar",
+    "away": "Switzerland",
+    "start_time": "2026-06-13T19:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 0.516,
+      "lambda_away": 2.262,
+      "p_home": 0.0689,
+      "p_draw": 0.1589,
+      "p_away": 0.7722,
+      "prediction": "0-2",
+      "top5": [
+        {
+          "score": "0-2",
+          "prob": 0.1591
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1407
+        },
+        {
+          "score": "0-3",
+          "prob": 0.12
+        },
+        {
+          "score": "1-2",
+          "prob": 0.082
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0725
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.624,
+      "lambda_away": 2.475,
+      "p_home": 0.0735,
+      "p_draw": 0.1467,
+      "p_away": 0.7797,
+      "prediction": "0-2",
+      "top5": [
+        {
+          "score": "0-2",
+          "prob": 0.1382
+        },
+        {
+          "score": "0-3",
+          "prob": 0.114
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1117
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0862
+        },
+        {
+          "score": "1-3",
+          "prob": 0.0711
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.108,
+      "lambda_away_delta": 0.213
+    }
+  },
+  {
+    "matchup_id": 1620849624,
+    "home": "Brazil",
+    "away": "Morocco",
+    "start_time": "2026-06-13T22:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 1.82,
+      "lambda_away": 0.947,
+      "p_home": 0.5791,
+      "p_draw": 0.2278,
+      "p_away": 0.1931,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1144
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1083
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1041
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0986
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0632
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.845,
+      "lambda_away": 0.832,
+      "p_home": 0.6135,
+      "p_draw": 0.2224,
+      "p_away": 0.1641,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1269
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1171
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1055
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0974
+        },
+        {
+          "score": "3-0",
+          "prob": 0.072
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.025,
+      "lambda_away_delta": -0.115
+    }
+  },
+  {
+    "matchup_id": 1620865473,
+    "home": "Haiti",
+    "away": "Scotland",
+    "start_time": "2026-06-14T01:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 0.801,
+      "lambda_away": 1.826,
+      "p_home": 0.1595,
+      "p_draw": 0.2236,
+      "p_away": 0.6168,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.132
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1205
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1058
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0965
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0733
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.817,
+      "lambda_away": 1.909,
+      "p_home": 0.1538,
+      "p_draw": 0.215,
+      "p_away": 0.6311,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.125
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1193
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1021
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0975
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0759
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.016,
+      "lambda_away_delta": 0.083
+    }
+  },
+  {
+    "matchup_id": 1627278051,
+    "home": "Australia",
+    "away": "Turkiye",
+    "start_time": "2026-06-14T04:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 0.931,
+      "lambda_away": 1.628,
+      "p_home": 0.2153,
+      "p_draw": 0.2473,
+      "p_away": 0.5374,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1259
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1173
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1025
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0955
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0773
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.992,
+      "lambda_away": 1.687,
+      "p_home": 0.2218,
+      "p_draw": 0.2414,
+      "p_away": 0.5368,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1157
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1148
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0976
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0969
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0686
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.061,
+      "lambda_away_delta": 0.059
+    }
+  },
+  {
+    "matchup_id": 1620849619,
+    "home": "Netherlands",
+    "away": "Japan",
+    "start_time": "2026-06-14T20:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 1.567,
+      "lambda_away": 1.062,
+      "p_home": 0.4902,
+      "p_draw": 0.2524,
+      "p_away": 0.2573,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1201
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1131
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0941
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0886
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0766
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.667,
+      "lambda_away": 1.093,
+      "p_home": 0.5076,
+      "p_draw": 0.2431,
+      "p_away": 0.2493,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1153
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1055
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0961
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0879
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0692
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.1,
+      "lambda_away_delta": 0.031
+    }
+  },
+  {
+    "matchup_id": 1620834898,
+    "home": "Ivory Coast",
+    "away": "Ecuador",
+    "start_time": "2026-06-14T23:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 0.727,
+      "lambda_away": 1.045,
+      "p_home": 0.2499,
+      "p_draw": 0.3258,
+      "p_away": 0.4243,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1777
+        },
+        {
+          "score": "0-0",
+          "prob": 0.1699
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1291
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1235
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0929
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.928,
+      "lambda_away": 1.184,
+      "p_home": 0.2871,
+      "p_draw": 0.2952,
+      "p_away": 0.4177,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1432
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1329
+        },
+        {
+          "score": "0-0",
+          "prob": 0.1209
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1123
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0848
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.202,
+      "lambda_away_delta": 0.139
+    }
+  },
+  {
+    "matchup_id": 1627278052,
+    "home": "Sweden",
+    "away": "Tunisia",
+    "start_time": "2026-06-15T02:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 1.563,
+      "lambda_away": 0.991,
+      "p_home": 0.5064,
+      "p_draw": 0.2537,
+      "p_away": 0.2399,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1216
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1205
+        },
+        {
+          "score": "2-0",
+          "prob": 0.095
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0941
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0778
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.542,
+      "lambda_away": 0.909,
+      "p_home": 0.521,
+      "p_draw": 0.2566,
+      "p_away": 0.2224,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1329
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1209
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1024
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0932
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0862
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.021,
+      "lambda_away_delta": -0.081
+    }
+  },
+  {
+    "matchup_id": 1620849623,
+    "home": "Belgium",
+    "away": "Egypt",
+    "start_time": "2026-06-15T19:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 1.676,
+      "lambda_away": 0.879,
+      "p_home": 0.5622,
+      "p_draw": 0.2419,
+      "p_away": 0.1959,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1303
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1145
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1092
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0959
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0778
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.792,
+      "lambda_away": 0.891,
+      "p_home": 0.5865,
+      "p_draw": 0.2296,
+      "p_away": 0.1839,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1225
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1098
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1091
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0978
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0684
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.116,
+      "lambda_away_delta": 0.012
+    }
+  },
+  {
+    "matchup_id": 1620858181,
+    "home": "Saudi Arabia",
+    "away": "Uruguay",
+    "start_time": "2026-06-15T22:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 0.702,
+      "lambda_away": 1.953,
+      "p_home": 0.1253,
+      "p_draw": 0.2052,
+      "p_away": 0.6694,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1373
+        },
+        {
+          "score": "0-2",
+          "prob": 0.134
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0964
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0941
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0873
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.776,
+      "lambda_away": 1.953,
+      "p_home": 0.1406,
+      "p_draw": 0.2087,
+      "p_away": 0.6507,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1275
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1245
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0989
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0966
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0811
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.074,
+      "lambda_away_delta": -0.0
+    }
+  },
+  {
+    "matchup_id": 1620849629,
+    "home": "Iran",
+    "away": "New Zealand",
+    "start_time": "2026-06-16T01:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 1.554,
+      "lambda_away": 0.974,
+      "p_home": 0.5081,
+      "p_draw": 0.2548,
+      "p_away": 0.2371,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.124
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1208
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0963
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0939
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0798
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.529,
+      "lambda_away": 0.888,
+      "p_home": 0.5232,
+      "p_draw": 0.2581,
+      "p_away": 0.2187,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1363
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1211
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1043
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0926
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0891
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.025,
+      "lambda_away_delta": -0.086
+    }
+  },
+  {
+    "matchup_id": 1620834894,
+    "home": "France",
+    "away": "Senegal",
+    "start_time": "2026-06-16T19:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 2.005,
+      "lambda_away": 0.705,
+      "p_home": 0.6793,
+      "p_draw": 0.1995,
+      "p_away": 0.1211,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1338
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1335
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0943
+        },
+        {
+          "score": "1-1",
+          "prob": 0.094
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0894
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 2.075,
+      "lambda_away": 0.758,
+      "p_home": 0.6798,
+      "p_draw": 0.1948,
+      "p_away": 0.1253,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1267
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1222
+        },
+        {
+          "score": "2-1",
+          "prob": 0.096
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0925
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0876
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.07,
+      "lambda_away_delta": 0.053
+    }
+  },
+  {
+    "matchup_id": 1627278053,
+    "home": "Iraq",
+    "away": "Norway",
+    "start_time": "2026-06-16T22:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 0.849,
+      "lambda_away": 2.81,
+      "p_home": 0.0856,
+      "p_draw": 0.1352,
+      "p_away": 0.779,
+      "prediction": "0-2",
+      "top5": [
+        {
+          "score": "0-2",
+          "prob": 0.1017
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0952
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0863
+        },
+        {
+          "score": "1-3",
+          "prob": 0.0809
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0724
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.641,
+      "lambda_away": 2.635,
+      "p_home": 0.0674,
+      "p_draw": 0.1342,
+      "p_away": 0.7983,
+      "prediction": "0-2",
+      "top5": [
+        {
+          "score": "0-2",
+          "prob": 0.1311
+        },
+        {
+          "score": "0-3",
+          "prob": 0.1152
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0995
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0841
+        },
+        {
+          "score": "0-4",
+          "prob": 0.0759
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.208,
+      "lambda_away_delta": -0.174
+    }
+  },
+  {
+    "matchup_id": 1620834896,
+    "home": "Argentina",
+    "away": "Algeria",
+    "start_time": "2026-06-17T01:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 2.007,
+      "lambda_away": 0.643,
+      "p_home": 0.6953,
+      "p_draw": 0.1958,
+      "p_away": 0.1088,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1423
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1418
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0952
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0915
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0912
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 2.098,
+      "lambda_away": 0.653,
+      "p_home": 0.7102,
+      "p_draw": 0.1863,
+      "p_away": 0.1035,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1405
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1339
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0983
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0918
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0875
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.091,
+      "lambda_away_delta": 0.01
+    }
+  },
+  {
+    "matchup_id": 1620849630,
+    "home": "Austria",
+    "away": "Jordan",
+    "start_time": "2026-06-17T04:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 2.166,
+      "lambda_away": 0.638,
+      "p_home": 0.7263,
+      "p_draw": 0.1781,
+      "p_away": 0.0956,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1421
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1313
+        },
+        {
+          "score": "3-0",
+          "prob": 0.1026
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0906
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0837
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 2.395,
+      "lambda_away": 0.731,
+      "p_home": 0.7431,
+      "p_draw": 0.1617,
+      "p_away": 0.0952,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1258
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1051
+        },
+        {
+          "score": "3-0",
+          "prob": 0.1005
+        },
+        {
+          "score": "2-1",
+          "prob": 0.092
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0768
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.23,
+      "lambda_away_delta": 0.094
+    }
+  },
+  {
+    "matchup_id": 1627277932,
+    "home": "Portugal",
+    "away": "DR Congo",
+    "start_time": "2026-06-17T17:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 2.166,
+      "lambda_away": 0.56,
+      "p_home": 0.7457,
+      "p_draw": 0.1724,
+      "p_away": 0.0819,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1536
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1418
+        },
+        {
+          "score": "3-0",
+          "prob": 0.1109
+        },
+        {
+          "score": "2-1",
+          "prob": 0.086
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0794
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 2.428,
+      "lambda_away": 0.646,
+      "p_home": 0.7676,
+      "p_draw": 0.1527,
+      "p_away": 0.0797,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1362
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1122
+        },
+        {
+          "score": "3-0",
+          "prob": 0.1103
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0881
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0725
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.262,
+      "lambda_away_delta": 0.086
+    }
+  },
+  {
+    "matchup_id": 1620849625,
+    "home": "England",
+    "away": "Croatia",
+    "start_time": "2026-06-17T20:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 1.719,
+      "lambda_away": 0.973,
+      "p_home": 0.5493,
+      "p_draw": 0.2382,
+      "p_away": 0.2125,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1165
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1133
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1001
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0974
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0677
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.699,
+      "lambda_away": 0.881,
+      "p_home": 0.567,
+      "p_draw": 0.2394,
+      "p_away": 0.1935,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1287
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1134
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1093
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0964
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0758
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.021,
+      "lambda_away_delta": -0.091
+    }
+  },
+  {
+    "matchup_id": 1620865472,
+    "home": "Ghana",
+    "away": "Panama",
+    "start_time": "2026-06-17T23:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 1.518,
+      "lambda_away": 1.063,
+      "p_home": 0.4776,
+      "p_draw": 0.2569,
+      "p_away": 0.2655,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1221
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1149
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0927
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0872
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0804
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.48,
+      "lambda_away": 0.991,
+      "p_home": 0.4849,
+      "p_draw": 0.262,
+      "p_away": 0.2532,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.125
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1239
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0925
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0917
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0844
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.038,
+      "lambda_away_delta": -0.072
+    }
+  },
+  {
+    "matchup_id": 1620834897,
+    "home": "Uzbekistan",
+    "away": "Colombia",
+    "start_time": "2026-06-18T02:00:00Z",
+    "has_cs": true,
+    "base": {
+      "lambda_home": 0.649,
+      "lambda_away": 1.988,
+      "p_home": 0.1116,
+      "p_draw": 0.1984,
+      "p_away": 0.69,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1423
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1414
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0937
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0924
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0918
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.71,
+      "lambda_away": 2.008,
+      "p_home": 0.122,
+      "p_draw": 0.1995,
+      "p_away": 0.6785,
+      "prediction": "0-2",
+      "top5": [
+        {
+          "score": "0-2",
+          "prob": 0.133
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1325
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0945
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0941
+        },
+        {
+          "score": "0-3",
+          "prob": 0.089
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": false,
+      "same_1x2": true,
+      "lambda_home_delta": 0.061,
+      "lambda_away_delta": 0.02
+    }
+  },
+  {
+    "matchup_id": 1627256477,
+    "home": "Czechia",
+    "away": "South Africa",
+    "start_time": "2026-06-18T16:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.529,
+      "lambda_away": 1.01,
+      "p_home": 0.493,
+      "p_draw": 0.2569,
+      "p_away": 0.2502,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1219
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1207
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0932
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0923
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0798
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.504,
+      "lambda_away": 0.936,
+      "p_home": 0.5048,
+      "p_draw": 0.2604,
+      "p_away": 0.2348,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1311
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1227
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0986
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0923
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0872
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.024,
+      "lambda_away_delta": -0.074
+    }
+  },
+  {
+    "matchup_id": 1627256479,
+    "home": "Switzerland",
+    "away": "Bosnia and Herzegovina",
+    "start_time": "2026-06-18T19:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.798,
+      "lambda_away": 0.795,
+      "p_home": 0.6121,
+      "p_draw": 0.2265,
+      "p_away": 0.1613,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1344
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1209
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1069
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0961
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0748
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.86,
+      "lambda_away": 0.824,
+      "p_home": 0.6186,
+      "p_draw": 0.2205,
+      "p_away": 0.1608,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1269
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1181
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1047
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0973
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0732
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.062,
+      "lambda_away_delta": 0.029
+    }
+  },
+  {
+    "matchup_id": 1620834900,
+    "home": "Canada",
+    "away": "Qatar",
+    "start_time": "2026-06-18T22:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 2.039,
+      "lambda_away": 0.587,
+      "p_home": 0.7159,
+      "p_draw": 0.1886,
+      "p_away": 0.0955,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1505
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1476
+        },
+        {
+          "score": "3-0",
+          "prob": 0.1023
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0883
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0866
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 2.143,
+      "lambda_away": 0.581,
+      "p_home": 0.7363,
+      "p_draw": 0.1766,
+      "p_away": 0.0871,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1507
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1407
+        },
+        {
+          "score": "3-0",
+          "prob": 0.1076
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0875
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0817
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.104,
+      "lambda_away_delta": -0.006
+    }
+  },
+  {
+    "matchup_id": 1620834895,
+    "home": "Mexico",
+    "away": "South Korea",
+    "start_time": "2026-06-19T01:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.619,
+      "lambda_away": 0.979,
+      "p_home": 0.5233,
+      "p_draw": 0.2482,
+      "p_away": 0.2285,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1205
+        },
+        {
+          "score": "1-1",
+          "prob": 0.118
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0975
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0955
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0744
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.595,
+      "lambda_away": 0.89,
+      "p_home": 0.5395,
+      "p_draw": 0.2508,
+      "p_away": 0.2097,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1329
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1183
+        },
+        {
+          "score": "2-0",
+          "prob": 0.106
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0943
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0834
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.024,
+      "lambda_away_delta": -0.089
+    }
+  },
+  {
+    "matchup_id": 1620858177,
+    "home": "USA",
+    "away": "Australia",
+    "start_time": "2026-06-19T19:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.63,
+      "lambda_away": 0.94,
+      "p_home": 0.5356,
+      "p_draw": 0.2472,
+      "p_away": 0.2173,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1248
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1173
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1017
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0956
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0766
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.718,
+      "lambda_away": 0.93,
+      "p_home": 0.5595,
+      "p_draw": 0.2379,
+      "p_away": 0.2026,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1216
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1131
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1045
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0972
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0708
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.089,
+      "lambda_away_delta": -0.01
+    }
+  },
+  {
+    "matchup_id": 1620849627,
+    "home": "Scotland",
+    "away": "Morocco",
+    "start_time": "2026-06-19T22:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.008,
+      "lambda_away": 1.51,
+      "p_home": 0.2527,
+      "p_draw": 0.2587,
+      "p_away": 0.4886,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1227
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1217
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0926
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0919
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0813
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.99,
+      "lambda_away": 1.436,
+      "p_home": 0.2599,
+      "p_draw": 0.2664,
+      "p_away": 0.4737,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.127
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1256
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0912
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0902
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0884
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.019,
+      "lambda_away_delta": -0.074
+    }
+  },
+  {
+    "matchup_id": 1627256478,
+    "home": "Turkiye",
+    "away": "Paraguay",
+    "start_time": "2026-06-20T03:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.43,
+      "lambda_away": 1.09,
+      "p_home": 0.4481,
+      "p_draw": 0.2641,
+      "p_away": 0.2878,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1254
+        },
+        {
+          "score": "1-0",
+          "prob": 0.115
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0897
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0877
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0822
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.391,
+      "lambda_away": 1.034,
+      "p_home": 0.4511,
+      "p_draw": 0.2695,
+      "p_away": 0.2795,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1272
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1231
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0915
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0885
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0884
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.038,
+      "lambda_away_delta": -0.056
+    }
+  },
+  {
+    "matchup_id": 1627257734,
+    "home": "Netherlands",
+    "away": "Sweden",
+    "start_time": "2026-06-20T17:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.729,
+      "lambda_away": 0.915,
+      "p_home": 0.5658,
+      "p_draw": 0.2367,
+      "p_away": 0.1975,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.123
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1125
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1063
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0972
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0711
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.888,
+      "lambda_away": 0.901,
+      "p_home": 0.6056,
+      "p_draw": 0.2199,
+      "p_away": 0.1745,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.116
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1096
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1046
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0987
+        },
+        {
+          "score": "3-0",
+          "prob": 0.069
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.16,
+      "lambda_away_delta": -0.013
+    }
+  },
+  {
+    "matchup_id": 1620834893,
+    "home": "Germany",
+    "away": "Ivory Coast",
+    "start_time": "2026-06-20T20:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.866,
+      "lambda_away": 0.755,
+      "p_home": 0.6376,
+      "p_draw": 0.2175,
+      "p_away": 0.145,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1358
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1267
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1025
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0956
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0788
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 2.029,
+      "lambda_away": 0.883,
+      "p_home": 0.6398,
+      "p_draw": 0.2051,
+      "p_away": 0.155,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1119
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1103
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0988
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0974
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0757
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": false,
+      "same_1x2": true,
+      "lambda_home_delta": 0.163,
+      "lambda_away_delta": 0.129
+    }
+  },
+  {
+    "matchup_id": 1620865471,
+    "home": "Ecuador",
+    "away": "Curacao",
+    "start_time": "2026-06-21T00:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 2.172,
+      "lambda_away": 0.515,
+      "p_home": 0.7577,
+      "p_draw": 0.1684,
+      "p_away": 0.0739,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1605
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1478
+        },
+        {
+          "score": "3-0",
+          "prob": 0.1163
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0827
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0762
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 2.446,
+      "lambda_away": 0.549,
+      "p_home": 0.7923,
+      "p_draw": 0.1434,
+      "p_away": 0.0642,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1497
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1224
+        },
+        {
+          "score": "3-0",
+          "prob": 0.1221
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0821
+        },
+        {
+          "score": "4-0",
+          "prob": 0.0747
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.274,
+      "lambda_away_delta": 0.033
+    }
+  },
+  {
+    "matchup_id": 1620858187,
+    "home": "Tunisia",
+    "away": "Japan",
+    "start_time": "2026-06-21T04:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 0.949,
+      "lambda_away": 1.642,
+      "p_home": 0.2177,
+      "p_draw": 0.2459,
+      "p_away": 0.5364,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.123
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1168
+        },
+        {
+          "score": "0-2",
+          "prob": 0.101
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0959
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0749
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.908,
+      "lambda_away": 1.575,
+      "p_home": 0.217,
+      "p_draw": 0.253,
+      "p_away": 0.53,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1315
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1194
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1036
+        },
+        {
+          "score": "1-2",
+          "prob": 0.094
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0835
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.041,
+      "lambda_away_delta": -0.067
+    }
+  },
+  {
+    "matchup_id": 1620858188,
+    "home": "Spain",
+    "away": "Saudi Arabia",
+    "start_time": "2026-06-21T16:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 3.062,
+      "lambda_away": 0.534,
+      "p_home": 0.8672,
+      "p_draw": 0.0943,
+      "p_away": 0.0381,
+      "prediction": "3-0",
+      "top5": [
+        {
+          "score": "3-0",
+          "prob": 0.1312
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1286
+        },
+        {
+          "score": "4-0",
+          "prob": 0.1005
+        },
+        {
+          "score": "1-0",
+          "prob": 0.084
+        },
+        {
+          "score": "3-1",
+          "prob": 0.0701
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 3.023,
+      "lambda_away": 0.42,
+      "p_home": 0.8834,
+      "p_draw": 0.0875,
+      "p_away": 0.0288,
+      "prediction": "3-0",
+      "top5": [
+        {
+          "score": "3-0",
+          "prob": 0.1472
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1461
+        },
+        {
+          "score": "4-0",
+          "prob": 0.1112
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0966
+        },
+        {
+          "score": "5-0",
+          "prob": 0.0672
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.04,
+      "lambda_away_delta": -0.114
+    }
+  },
+  {
+    "matchup_id": 1620858179,
+    "home": "Belgium",
+    "away": "Iran",
+    "start_time": "2026-06-21T19:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 2.041,
+      "lambda_away": 0.703,
+      "p_home": 0.6869,
+      "p_draw": 0.1955,
+      "p_away": 0.1176,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.134
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1314
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0941
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0923
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0912
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 2.125,
+      "lambda_away": 0.727,
+      "p_home": 0.697,
+      "p_draw": 0.1879,
+      "p_away": 0.1151,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1304
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1227
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0948
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0923
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0892
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.084,
+      "lambda_away_delta": 0.024
+    }
+  },
+  {
+    "matchup_id": 1620849632,
+    "home": "Uruguay",
+    "away": "Cape Verde",
+    "start_time": "2026-06-21T22:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.994,
+      "lambda_away": 0.695,
+      "p_home": 0.6796,
+      "p_draw": 0.2002,
+      "p_away": 0.1202,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1355
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1351
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0942
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0939
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0898
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 2.04,
+      "lambda_away": 0.729,
+      "p_home": 0.6803,
+      "p_draw": 0.1969,
+      "p_away": 0.1228,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1306
+        },
+        {
+          "score": "1-0",
+          "prob": 0.128
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0951
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0933
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0888
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": false,
+      "same_1x2": true,
+      "lambda_home_delta": 0.046,
+      "lambda_away_delta": 0.034
+    }
+  },
+  {
+    "matchup_id": 1620849633,
+    "home": "New Zealand",
+    "away": "Egypt",
+    "start_time": "2026-06-22T01:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 0.955,
+      "lambda_away": 1.67,
+      "p_home": 0.2151,
+      "p_draw": 0.2431,
+      "p_away": 0.5418,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.121
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1155
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1011
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0965
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0725
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.871,
+      "lambda_away": 1.602,
+      "p_home": 0.204,
+      "p_draw": 0.25,
+      "p_away": 0.5461,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1351
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1177
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1082
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0943
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0843
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.084,
+      "lambda_away_delta": -0.068
+    }
+  },
+  {
+    "matchup_id": 1620858180,
+    "home": "Argentina",
+    "away": "Austria",
+    "start_time": "2026-06-22T17:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.698,
+      "lambda_away": 0.897,
+      "p_home": 0.563,
+      "p_draw": 0.2397,
+      "p_away": 0.1974,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1267
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1137
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1076
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0965
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0746
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.846,
+      "lambda_away": 0.891,
+      "p_home": 0.5988,
+      "p_draw": 0.2239,
+      "p_away": 0.1772,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1196
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1104
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1065
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0983
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0679
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.148,
+      "lambda_away_delta": -0.006
+    }
+  },
+  {
+    "matchup_id": 1627256763,
+    "home": "France",
+    "away": "Iraq",
+    "start_time": "2026-06-22T21:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 3.127,
+      "lambda_away": 0.696,
+      "p_home": 0.8452,
+      "p_draw": 0.1025,
+      "p_away": 0.0518,
+      "prediction": "3-0",
+      "top5": [
+        {
+          "score": "3-0",
+          "prob": 0.1114
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1068
+        },
+        {
+          "score": "4-0",
+          "prob": 0.0871
+        },
+        {
+          "score": "3-1",
+          "prob": 0.0776
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0744
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 2.968,
+      "lambda_away": 0.438,
+      "p_home": 0.8755,
+      "p_draw": 0.0925,
+      "p_away": 0.0317,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1461
+        },
+        {
+          "score": "3-0",
+          "prob": 0.1446
+        },
+        {
+          "score": "4-0",
+          "prob": 0.1073
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0985
+        },
+        {
+          "score": "2-1",
+          "prob": 0.064
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": false,
+      "same_1x2": true,
+      "lambda_home_delta": -0.159,
+      "lambda_away_delta": -0.259
+    }
+  },
+  {
+    "matchup_id": 1620849626,
+    "home": "Norway",
+    "away": "Senegal",
+    "start_time": "2026-06-23T00:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.5,
+      "lambda_away": 1.114,
+      "p_home": 0.4611,
+      "p_draw": 0.2573,
+      "p_away": 0.2816,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1224
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1099
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0918
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0824
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0816
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.576,
+      "lambda_away": 1.149,
+      "p_home": 0.4723,
+      "p_draw": 0.2501,
+      "p_away": 0.2776,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1187
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1033
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0935
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0814
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0753
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.076,
+      "lambda_away_delta": 0.035
+    }
+  },
+  {
+    "matchup_id": 1627256480,
+    "home": "Jordan",
+    "away": "Algeria",
+    "start_time": "2026-06-23T03:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 0.872,
+      "lambda_away": 1.771,
+      "p_home": 0.182,
+      "p_draw": 0.2315,
+      "p_away": 0.5865,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.126
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1116
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1099
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0973
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0712
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.893,
+      "lambda_away": 1.867,
+      "p_home": 0.1753,
+      "p_draw": 0.2219,
+      "p_away": 0.6028,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1181
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1103
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1055
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0985
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0686
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.022,
+      "lambda_away_delta": 0.096
+    }
+  },
+  {
+    "matchup_id": 1620849621,
+    "home": "Portugal",
+    "away": "Uzbekistan",
+    "start_time": "2026-06-23T17:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 2.746,
+      "lambda_away": 0.938,
+      "p_home": 0.7521,
+      "p_draw": 0.1455,
+      "p_away": 0.1022,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.0947
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0888
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0867
+        },
+        {
+          "score": "3-1",
+          "prob": 0.0813
+        },
+        {
+          "score": "1-0",
+          "prob": 0.069
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 2.617,
+      "lambda_away": 0.682,
+      "p_home": 0.7874,
+      "p_draw": 0.1387,
+      "p_away": 0.0738,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1265
+        },
+        {
+          "score": "3-0",
+          "prob": 0.1103
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0966
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0862
+        },
+        {
+          "score": "3-1",
+          "prob": 0.0752
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.129,
+      "lambda_away_delta": -0.256
+    }
+  },
+  {
+    "matchup_id": 1627257732,
+    "home": "England",
+    "away": "Ghana",
+    "start_time": "2026-06-23T20:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 2.134,
+      "lambda_away": 0.635,
+      "p_home": 0.7214,
+      "p_draw": 0.1812,
+      "p_away": 0.0974,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1429
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1339
+        },
+        {
+          "score": "3-0",
+          "prob": 0.1016
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0907
+        },
+        {
+          "score": "1-1",
+          "prob": 0.085
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 2.387,
+      "lambda_away": 0.707,
+      "p_home": 0.7472,
+      "p_draw": 0.1609,
+      "p_away": 0.0919,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1291
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1082
+        },
+        {
+          "score": "3-0",
+          "prob": 0.1027
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0913
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0765
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.253,
+      "lambda_away_delta": 0.073
+    }
+  },
+  {
+    "matchup_id": 1620849620,
+    "home": "Panama",
+    "away": "Croatia",
+    "start_time": "2026-06-23T23:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 0.785,
+      "lambda_away": 1.764,
+      "p_home": 0.1629,
+      "p_draw": 0.2302,
+      "p_away": 0.6069,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1379
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1216
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1082
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0955
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0782
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.779,
+      "lambda_away": 1.892,
+      "p_home": 0.1475,
+      "p_draw": 0.2155,
+      "p_away": 0.637,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1309
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1238
+        },
+        {
+          "score": "1-1",
+          "prob": 0.102
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0965
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0781
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.006,
+      "lambda_away_delta": 0.128
+    }
+  },
+  {
+    "matchup_id": 1627257733,
+    "home": "Colombia",
+    "away": "DR Congo",
+    "start_time": "2026-06-24T02:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.962,
+      "lambda_away": 0.724,
+      "p_home": 0.6659,
+      "p_draw": 0.2052,
+      "p_away": 0.1288,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1337
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1312
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0968
+        },
+        {
+          "score": "2-1",
+          "prob": 0.095
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0858
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.899,
+      "lambda_away": 0.636,
+      "p_home": 0.6753,
+      "p_draw": 0.2081,
+      "p_away": 0.1166,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1505
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1429
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0957
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0909
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0904
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.064,
+      "lambda_away_delta": -0.087
+    }
+  },
+  {
+    "matchup_id": 1627256764,
+    "home": "Bosnia and Herzegovina",
+    "away": "Qatar",
+    "start_time": "2026-06-24T19:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.804,
+      "lambda_away": 0.784,
+      "p_home": 0.6165,
+      "p_draw": 0.2255,
+      "p_away": 0.158,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1356
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1224
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1063
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0959
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0752
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.868,
+      "lambda_away": 0.81,
+      "p_home": 0.624,
+      "p_draw": 0.2192,
+      "p_away": 0.1567,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1284
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1199
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1039
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0971
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0747
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.064,
+      "lambda_away_delta": 0.026
+    }
+  },
+  {
+    "matchup_id": 1620858186,
+    "home": "Switzerland",
+    "away": "Canada",
+    "start_time": "2026-06-24T19:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.545,
+      "lambda_away": 1.156,
+      "p_home": 0.4628,
+      "p_draw": 0.2524,
+      "p_away": 0.2847,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1199
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1037
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0926
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0801
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0776
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.506,
+      "lambda_away": 1.084,
+      "p_home": 0.4696,
+      "p_draw": 0.2575,
+      "p_away": 0.2729,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1225
+        },
+        {
+          "score": "1-0",
+          "prob": 0.113
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0922
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0851
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0813
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.039,
+      "lambda_away_delta": -0.073
+    }
+  },
+  {
+    "matchup_id": 1631342070,
+    "home": "Morocco",
+    "away": "Haiti",
+    "start_time": "2026-06-24T22:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 2.04,
+      "lambda_away": 0.633,
+      "p_home": 0.7042,
+      "p_draw": 0.1915,
+      "p_away": 0.1043,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.1436
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1409
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0977
+        },
+        {
+          "score": "2-1",
+          "prob": 0.091
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0892
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 2.265,
+      "lambda_away": 0.717,
+      "p_home": 0.7247,
+      "p_draw": 0.1731,
+      "p_away": 0.1022,
+      "prediction": "2-0",
+      "top5": [
+        {
+          "score": "2-0",
+          "prob": 0.13
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1148
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0982
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0932
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0823
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.226,
+      "lambda_away_delta": 0.084
+    }
+  },
+  {
+    "matchup_id": 1620865469,
+    "home": "Scotland",
+    "away": "Brazil",
+    "start_time": "2026-06-24T22:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 0.906,
+      "lambda_away": 1.833,
+      "p_home": 0.1822,
+      "p_draw": 0.2257,
+      "p_away": 0.5921,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1185
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1086
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1073
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0984
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0664
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.871,
+      "lambda_away": 1.934,
+      "p_home": 0.1628,
+      "p_draw": 0.2143,
+      "p_away": 0.6228,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.117
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1131
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1019
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0986
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0729
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.035,
+      "lambda_away_delta": 0.101
+    }
+  },
+  {
+    "matchup_id": 1620834899,
+    "home": "South Africa",
+    "away": "South Korea",
+    "start_time": "2026-06-25T01:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.07,
+      "lambda_away": 1.616,
+      "p_home": 0.2514,
+      "p_draw": 0.2478,
+      "p_away": 0.5008,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1178
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1101
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0952
+        },
+        {
+          "score": "0-2",
+          "prob": 0.089
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0729
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.039,
+      "lambda_away": 1.541,
+      "p_home": 0.2556,
+      "p_draw": 0.2552,
+      "p_away": 0.4892,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1213
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1168
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0935
+        },
+        {
+          "score": "0-2",
+          "prob": 0.09
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0787
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.031,
+      "lambda_away_delta": -0.076
+    }
+  },
+  {
+    "matchup_id": 1631338312,
+    "home": "Czechia",
+    "away": "Mexico",
+    "start_time": "2026-06-25T01:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.019,
+      "lambda_away": 1.694,
+      "p_home": 0.2272,
+      "p_draw": 0.2409,
+      "p_away": 0.5319,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1145
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1124
+        },
+        {
+          "score": "1-2",
+          "prob": 0.097
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0952
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0676
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.971,
+      "lambda_away": 1.626,
+      "p_home": 0.2254,
+      "p_draw": 0.2475,
+      "p_away": 0.527,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1211
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1176
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0985
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0956
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0745
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.047,
+      "lambda_away_delta": -0.067
+    }
+  },
+  {
+    "matchup_id": 1631342068,
+    "home": "Curacao",
+    "away": "Ivory Coast",
+    "start_time": "2026-06-25T20:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 0.585,
+      "lambda_away": 2.052,
+      "p_home": 0.0941,
+      "p_draw": 0.187,
+      "p_away": 0.7188,
+      "prediction": "0-2",
+      "top5": [
+        {
+          "score": "0-2",
+          "prob": 0.1508
+        },
+        {
+          "score": "0-1",
+          "prob": 0.147
+        },
+        {
+          "score": "0-3",
+          "prob": 0.1031
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0881
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0859
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.689,
+      "lambda_away": 2.231,
+      "p_home": 0.0998,
+      "p_draw": 0.1747,
+      "p_away": 0.7255,
+      "prediction": "0-2",
+      "top5": [
+        {
+          "score": "0-2",
+          "prob": 0.1342
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1203
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0998
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0925
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0829
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.104,
+      "lambda_away_delta": 0.18
+    }
+  },
+  {
+    "matchup_id": 1620858182,
+    "home": "Ecuador",
+    "away": "Germany",
+    "start_time": "2026-06-25T20:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 0.948,
+      "lambda_away": 1.728,
+      "p_home": 0.2055,
+      "p_draw": 0.2371,
+      "p_away": 0.5574,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.119
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1128
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1028
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0974
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0689
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.987,
+      "lambda_away": 1.815,
+      "p_home": 0.203,
+      "p_draw": 0.2289,
+      "p_away": 0.5681,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1101
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1087
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0987
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0607
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.039,
+      "lambda_away_delta": 0.088
+    }
+  },
+  {
+    "matchup_id": 1620849622,
+    "home": "Tunisia",
+    "away": "Netherlands",
+    "start_time": "2026-06-25T23:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 0.862,
+      "lambda_away": 1.859,
+      "p_home": 0.1692,
+      "p_draw": 0.2218,
+      "p_away": 0.6091,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1224
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1138
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1054
+        },
+        {
+          "score": "1-2",
+          "prob": 0.098
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0705
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.874,
+      "lambda_away": 1.967,
+      "p_home": 0.1597,
+      "p_draw": 0.211,
+      "p_away": 0.6292,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1148
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1129
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1003
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0987
+        },
+        {
+          "score": "0-3",
+          "prob": 0.074
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.012,
+      "lambda_away_delta": 0.107
+    }
+  },
+  {
+    "matchup_id": 1631338310,
+    "home": "Japan",
+    "away": "Sweden",
+    "start_time": "2026-06-25T23:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.592,
+      "lambda_away": 1.155,
+      "p_home": 0.4747,
+      "p_draw": 0.2487,
+      "p_away": 0.2766,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1179
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1021
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0938
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0812
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0741
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.549,
+      "lambda_away": 1.085,
+      "p_home": 0.4803,
+      "p_draw": 0.2537,
+      "p_away": 0.266,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1207
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1112
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0935
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0861
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0779
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.043,
+      "lambda_away_delta": -0.07
+    }
+  },
+  {
+    "matchup_id": 1620858183,
+    "home": "Paraguay",
+    "away": "Australia",
+    "start_time": "2026-06-26T02:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.437,
+      "lambda_away": 1.087,
+      "p_home": 0.451,
+      "p_draw": 0.2635,
+      "p_away": 0.2855,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1252
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1152
+        },
+        {
+          "score": "2-1",
+          "prob": 0.09
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0871
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0828
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.399,
+      "lambda_away": 1.028,
+      "p_home": 0.4545,
+      "p_draw": 0.269,
+      "p_away": 0.2765,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.127
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1236
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0908
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0888
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0884
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.039,
+      "lambda_away_delta": -0.059
+    }
+  },
+  {
+    "matchup_id": 1631350202,
+    "home": "Turkiye",
+    "away": "USA",
+    "start_time": "2026-06-26T02:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.317,
+      "lambda_away": 1.277,
+      "p_home": 0.3773,
+      "p_draw": 0.2642,
+      "p_away": 0.3586,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1256
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0984
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0954
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0828
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0802
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.357,
+      "lambda_away": 1.336,
+      "p_home": 0.3758,
+      "p_draw": 0.2586,
+      "p_away": 0.3657,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1227
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0919
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0904
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0833
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0819
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.04,
+      "lambda_away_delta": 0.058
+    }
+  },
+  {
+    "matchup_id": 1631338309,
+    "home": "Norway",
+    "away": "France",
+    "start_time": "2026-06-26T19:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 0.97,
+      "lambda_away": 1.596,
+      "p_home": 0.2297,
+      "p_draw": 0.2506,
+      "p_away": 0.5197,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1227
+        },
+        {
+          "score": "1-1",
+          "prob": 0.119
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0979
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0949
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0769
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.03,
+      "lambda_away": 1.655,
+      "p_home": 0.2357,
+      "p_draw": 0.2445,
+      "p_away": 0.5198,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1163
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1129
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0962
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0934
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0703
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.06,
+      "lambda_away_delta": 0.059
+    }
+  },
+  {
+    "matchup_id": 1631350200,
+    "home": "Senegal",
+    "away": "Iraq",
+    "start_time": "2026-06-26T19:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.9,
+      "lambda_away": 0.753,
+      "p_home": 0.6455,
+      "p_draw": 0.2135,
+      "p_away": 0.141,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1338
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1272
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1007
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0957
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0806
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.953,
+      "lambda_away": 0.774,
+      "p_home": 0.6513,
+      "p_draw": 0.2085,
+      "p_away": 0.1401,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1278
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1248
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0989
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0966
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0812
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.053,
+      "lambda_away_delta": 0.021
+    }
+  },
+  {
+    "matchup_id": 1631342071,
+    "home": "Uruguay",
+    "away": "Spain",
+    "start_time": "2026-06-27T00:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 0.926,
+      "lambda_away": 1.756,
+      "p_home": 0.1965,
+      "p_draw": 0.2339,
+      "p_away": 0.5695,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1202
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1112
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1055
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0977
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0684
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.964,
+      "lambda_away": 1.846,
+      "p_home": 0.1937,
+      "p_draw": 0.2256,
+      "p_away": 0.5807,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "0-1",
+          "prob": 0.1112
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1072
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1026
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0989
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0631
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.038,
+      "lambda_away_delta": 0.089
+    }
+  },
+  {
+    "matchup_id": 1631350201,
+    "home": "Cape Verde",
+    "away": "Saudi Arabia",
+    "start_time": "2026-06-27T00:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.396,
+      "lambda_away": 1.168,
+      "p_home": 0.4215,
+      "p_draw": 0.264,
+      "p_away": 0.3145,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1256
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1075
+        },
+        {
+          "score": "0-1",
+          "prob": 0.09
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0876
+        },
+        {
+          "score": "0-0",
+          "prob": 0.077
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.342,
+      "lambda_away": 1.125,
+      "p_home": 0.4168,
+      "p_draw": 0.2702,
+      "p_away": 0.313,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1281
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1139
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0955
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0859
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0849
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.054,
+      "lambda_away_delta": -0.044
+    }
+  },
+  {
+    "matchup_id": 1631338313,
+    "home": "New Zealand",
+    "away": "Belgium",
+    "start_time": "2026-06-27T03:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 0.61,
+      "lambda_away": 2.123,
+      "p_home": 0.0937,
+      "p_draw": 0.1807,
+      "p_away": 0.7255,
+      "prediction": "0-2",
+      "top5": [
+        {
+          "score": "0-2",
+          "prob": 0.1465
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1379
+        },
+        {
+          "score": "0-3",
+          "prob": 0.1037
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0894
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0842
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.716,
+      "lambda_away": 2.299,
+      "p_home": 0.0996,
+      "p_draw": 0.1698,
+      "p_away": 0.7306,
+      "prediction": "0-2",
+      "top5": [
+        {
+          "score": "0-2",
+          "prob": 0.1296
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1127
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0993
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0928
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0808
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.106,
+      "lambda_away_delta": 0.175
+    }
+  },
+  {
+    "matchup_id": 1620858184,
+    "home": "Egypt",
+    "away": "Iran",
+    "start_time": "2026-06-27T03:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.456,
+      "lambda_away": 1.116,
+      "p_home": 0.4491,
+      "p_draw": 0.2611,
+      "p_away": 0.2899,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1241
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1113
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0903
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0853
+        },
+        {
+          "score": "2-0",
+          "prob": 0.081
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.316,
+      "lambda_away": 0.958,
+      "p_home": 0.4484,
+      "p_draw": 0.2798,
+      "p_away": 0.2718,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1355
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1297
+        },
+        {
+          "score": "0-0",
+          "prob": 0.103
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0986
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0891
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.14,
+      "lambda_away_delta": -0.158
+    }
+  },
+  {
+    "matchup_id": 1631338308,
+    "home": "Croatia",
+    "away": "Ghana",
+    "start_time": "2026-06-27T21:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.735,
+      "lambda_away": 0.986,
+      "p_home": 0.5497,
+      "p_draw": 0.2367,
+      "p_away": 0.2136,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1142
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1126
+        },
+        {
+          "score": "2-0",
+          "prob": 0.099
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0977
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0658
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.735,
+      "lambda_away": 0.872,
+      "p_home": 0.578,
+      "p_draw": 0.2353,
+      "p_away": 0.1867,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-0",
+          "prob": 0.1279
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1116
+        },
+        {
+          "score": "2-0",
+          "prob": 0.111
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0968
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0737
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.0,
+      "lambda_away_delta": -0.114
+    }
+  },
+  {
+    "matchup_id": 1631338307,
+    "home": "Panama",
+    "away": "England",
+    "start_time": "2026-06-27T21:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 0.658,
+      "lambda_away": 2.165,
+      "p_home": 0.0992,
+      "p_draw": 0.1794,
+      "p_away": 0.7214,
+      "prediction": "0-2",
+      "top5": [
+        {
+          "score": "0-2",
+          "prob": 0.1393
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1287
+        },
+        {
+          "score": "0-3",
+          "prob": 0.1005
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0916
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0846
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.76,
+      "lambda_away": 2.345,
+      "p_home": 0.1035,
+      "p_draw": 0.1682,
+      "p_away": 0.7283,
+      "prediction": "0-2",
+      "top5": [
+        {
+          "score": "0-2",
+          "prob": 0.1233
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1052
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0964
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0937
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0799
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.102,
+      "lambda_away_delta": 0.18
+    }
+  },
+  {
+    "matchup_id": 1631342072,
+    "home": "DR Congo",
+    "away": "Uzbekistan",
+    "start_time": "2026-06-27T23:30:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.447,
+      "lambda_away": 1.171,
+      "p_home": 0.4345,
+      "p_draw": 0.2599,
+      "p_away": 0.3056,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1236
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1056
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0894
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0854
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0764
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.385,
+      "lambda_away": 1.105,
+      "p_home": 0.433,
+      "p_draw": 0.2674,
+      "p_away": 0.2996,
+      "prediction": "1-0",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1269
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1148
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0916
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0879
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0829
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.062,
+      "lambda_away_delta": -0.066
+    }
+  },
+  {
+    "matchup_id": 1631338311,
+    "home": "Colombia",
+    "away": "Portugal",
+    "start_time": "2026-06-27T23:30:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.166,
+      "lambda_away": 1.526,
+      "p_home": 0.2905,
+      "p_draw": 0.2538,
+      "p_away": 0.4557,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1206
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1034
+        },
+        {
+          "score": "1-2",
+          "prob": 0.092
+        },
+        {
+          "score": "1-0",
+          "prob": 0.079
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0789
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.149,
+      "lambda_away": 1.434,
+      "p_home": 0.3024,
+      "p_draw": 0.2617,
+      "p_away": 0.4359,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1245
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1083
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0893
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0868
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0777
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.016,
+      "lambda_away_delta": -0.092
+    }
+  },
+  {
+    "matchup_id": 1631342069,
+    "home": "Jordan",
+    "away": "Argentina",
+    "start_time": "2026-06-28T02:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 0.836,
+      "lambda_away": 2.696,
+      "p_home": 0.091,
+      "p_draw": 0.1431,
+      "p_away": 0.7659,
+      "prediction": "0-2",
+      "top5": [
+        {
+          "score": "0-2",
+          "prob": 0.1063
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0955
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0889
+        },
+        {
+          "score": "1-3",
+          "prob": 0.0799
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0788
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.617,
+      "lambda_away": 2.543,
+      "p_home": 0.0689,
+      "p_draw": 0.1402,
+      "p_away": 0.7908,
+      "prediction": "0-2",
+      "top5": [
+        {
+          "score": "0-2",
+          "prob": 0.1371
+        },
+        {
+          "score": "0-3",
+          "prob": 0.1162
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1079
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0847
+        },
+        {
+          "score": "0-4",
+          "prob": 0.0739
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": -0.219,
+      "lambda_away_delta": -0.153
+    }
+  },
+  {
+    "matchup_id": 1631350199,
+    "home": "Algeria",
+    "away": "Austria",
+    "start_time": "2026-06-28T02:00:00Z",
+    "has_cs": false,
+    "base": {
+      "lambda_home": 1.188,
+      "lambda_away": 1.486,
+      "p_home": 0.3033,
+      "p_draw": 0.2563,
+      "p_away": 0.4404,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1218
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1025
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0905
+        },
+        {
+          "score": "1-0",
+          "prob": 0.082
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0761
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.2,
+      "lambda_away": 1.405,
+      "p_home": 0.321,
+      "p_draw": 0.262,
+      "p_away": 0.417,
+      "prediction": "0-1",
+      "top5": [
+        {
+          "score": "1-1",
+          "prob": 0.1246
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1039
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0887
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0875
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0747
+        }
+      ]
+    },
+    "comparison": {
+      "same_score": true,
+      "same_1x2": true,
+      "lambda_home_delta": 0.011,
+      "lambda_away_delta": -0.08
+    }
+  }
+]

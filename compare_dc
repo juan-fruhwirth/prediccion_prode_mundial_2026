@@ -1,0 +1,101 @@
+"""
+compare_dc.py
+-------------
+Compara predictions_con_DC.json vs predictions_sin_DC.json
+Muestra qué scores cambiaron al sacar Dixon-Coles.
+"""
+import json
+
+FILE_CON = "predictions_con_DC.json"
+FILE_SIN = "predictions_sin_DC.json"
+
+
+def load(path):
+    with open(path) as f:
+        data = json.load(f)
+    return {d["matchup_id"]: d for d in data}
+
+
+def main():
+    con_dc = load(FILE_CON)
+    sin_dc = load(FILE_SIN)
+
+    common = set(con_dc) & set(sin_dc)
+    print(f"Partidos comparados: {len(common)}")
+
+    changes_base = []
+    changes_rich = []
+
+    for mid in sorted(common, key=lambda x: con_dc[x]["start_time"]):
+        c = con_dc[mid]
+        s = sin_dc[mid]
+        home = c["home"]
+        away = c["away"]
+        date = c["start_time"][:10]
+
+        # BASE
+        base_con = c["base"]["prediction"]
+        base_sin = s["base"]["prediction"]
+        if base_con != base_sin:
+            changes_base.append((home, away, date, base_con, base_sin,
+                                  c["base"]["lambda_home"], c["base"]["lambda_away"],
+                                  s["base"]["lambda_home"], s["base"]["lambda_away"]))
+
+        # RICH
+        rich_con = c["rich"]["prediction"]
+        rich_sin = s["rich"]["prediction"]
+        if rich_con != rich_sin:
+            changes_rich.append((home, away, date, rich_con, rich_sin,
+                                  c["rich"]["lambda_home"], c["rich"]["lambda_away"],
+                                  s["rich"]["lambda_home"], s["rich"]["lambda_away"]))
+
+    print("\n" + "="*75)
+    print("ESTRATEGIA BASE — scores que cambiaron al sacar Dixon-Coles")
+    print("="*75)
+    if not changes_base:
+        print("  Ningún score cambió.")
+    else:
+        print(f"\n{'Partido':<35} {'Fecha':<12} {'Con DC':^8} {'Sin DC':^8} {'ΔλH':>7} {'ΔλA':>7}")
+        print("-"*75)
+        for home, away, date, pred_con, pred_sin, lhc, lac, lhs, las in changes_base:
+            name = f"{home} vs {away}"[:34]
+            dlh = lhs - lhc
+            dla = las - lac
+            print(f"{name:<35} {date:<12} {pred_con:^8} {pred_sin:^8} {dlh:>+7.3f} {dla:>+7.3f}")
+
+    print("\n" + "="*75)
+    print("ESTRATEGIA RICH — scores que cambiaron al sacar Dixon-Coles")
+    print("="*75)
+    if not changes_rich:
+        print("  Ningún score cambió.")
+    else:
+        print(f"\n{'Partido':<35} {'Fecha':<12} {'Con DC':^8} {'Sin DC':^8} {'ΔλH':>7} {'ΔλA':>7}")
+        print("-"*75)
+        for home, away, date, pred_con, pred_sin, lhc, lac, lhs, las in changes_rich:
+            name = f"{home} vs {away}"[:34]
+            dlh = lhs - lhc
+            dla = las - lac
+            print(f"{name:<35} {date:<12} {pred_con:^8} {pred_sin:^8} {dlh:>+7.3f} {dla:>+7.3f}")
+
+    print("\n" + "="*75)
+    print("RESUMEN")
+    print("="*75)
+    print(f"  BASE: {len(changes_base)} scores cambiaron de {len(common)} partidos "
+          f"({len(changes_base)/len(common)*100:.1f}%)")
+    print(f"  RICH: {len(changes_rich)} scores cambiaron de {len(common)} partidos "
+          f"({len(changes_rich)/len(common)*100:.1f}%)")
+
+    total_changes = set(
+        [(h,a,d) for h,a,d,*_ in changes_base] +
+        [(h,a,d) for h,a,d,*_ in changes_rich]
+    )
+    print(f"  Partidos donde cambió algo: {len(total_changes)}")
+
+    if not changes_base and not changes_rich:
+        print("\n  Dixon-Coles no tuvo ningún efecto en las predicciones finales.")
+        print("  Esto tiene sentido: el EV maximizer elige según la forma relativa")
+        print("  de la distribución, y DC solo ajusta scores bajos levemente.")
+
+
+if __name__ == "__main__":
+    main()
