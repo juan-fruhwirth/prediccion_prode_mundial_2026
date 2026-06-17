@@ -142,7 +142,7 @@ def main():
                 same_1x2   = (get_result(pred_h_base, pred_a_base) ==
                               get_result(pred_h_rich, pred_a_rich))
 
-                def top_scores(mat, n=5):
+                def top_scores(mat, n=20):
                     flat = [(int(i), int(j), float(mat[i, j]))
                             for i in range(mat.shape[0])
                             for j in range(mat.shape[1])]
@@ -156,6 +156,7 @@ def main():
                     "away":       match["away"],
                     "start_time": match["start_time"],
                     "has_cs":     bool(match.get("correct_score")),
+                    "moneyline":  match["markets"].get("moneyline"),
 
                     "base": {
                         "lambda_home": round(lh_base, 3),
@@ -164,7 +165,7 @@ def main():
                         "p_draw":      round(pd_base, 4),
                         "p_away":      round(pa_base, 4),
                         "prediction":  f"{pred_h_base}-{pred_a_base}",
-                        "top5":        top_scores(mat_base),
+                        "top20":       top_scores(mat_base),
                     },
                     "rich": {
                         "lambda_home": round(lh_rich, 3),
@@ -173,14 +174,18 @@ def main():
                         "p_draw":      round(pd_rich, 4),
                         "p_away":      round(pa_rich, 4),
                         "prediction":  f"{pred_h_rich}-{pred_a_rich}",
-                        "top5":        top_scores(mat_rich),
+                        "top20":       top_scores(mat_rich),
                     },
 
                     "comparison": {
-                        "same_score":        same_score,
-                        "same_1x2":          same_1x2,
-                        "lambda_home_delta": round(lh_rich - lh_base, 3),
-                        "lambda_away_delta": round(la_rich - la_base, 3),
+                        "same_score":         same_score,
+                        "same_1x2":           same_1x2,
+                        "lambda_home_delta":  round(lh_rich - lh_base, 3),
+                        "lambda_away_delta":  round(la_rich - la_base, 3),
+                        "lh_base":            round(lh_base, 3),
+                        "la_base":            round(la_base, 3),
+                        "lh_rich":            round(lh_rich, 3),
+                        "la_rich":            round(la_rich, 3),
                     }
                 })
             except Exception as e:

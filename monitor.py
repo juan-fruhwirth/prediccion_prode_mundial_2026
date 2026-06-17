@@ -24,8 +24,10 @@ import predict  # llama predict.main() para generar los JSONs
 DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK", "")
 CURRENT_FILE    = "predictions_6_3.json"
 LAST_FILE       = "predictions_last.json"
+LOCKED_FILE     = "predictions_locked.json"
 DAILY_FLAG      = "last_daily_report.txt"
 TZ_AR           = timezone(timedelta(hours=-3))
+LOCK_HOURS      = 1  # congelar predicción N horas antes del pitazo
 
 # ─── Discord ──────────────────────────────────────────────────────────────────
 
@@ -49,11 +51,13 @@ def compare(old: list, new: list) -> list:
         o = old_d.get(n["matchup_id"])
         if not o:
             continue
-        lh_delta = n["base"]["lambda_home"] - o["base"]["lambda_home"]
-        la_delta = n["base"]["lambda_away"] - o["base"]["lambda_away"]
+        lh_delta_b = n["base"]["lambda_home"] - o["base"]["lambda_home"]
+        la_delta_b = n["base"]["lambda_away"] - o["base"]["lambda_away"]
+        lh_delta_r = n["rich"]["lambda_home"] - o["rich"]["lambda_home"]
+        la_delta_r = n["rich"]["lambda_away"] - o["rich"]["lambda_away"]
         base_changed = n["base"]["prediction"] != o["base"]["prediction"]
         rich_changed = n["rich"]["prediction"] != o["rich"]["prediction"]
-        if base_changed or rich_changed or abs(lh_delta) > 0.05 or abs(la_delta) > 0.05:
+        if base_changed or rich_changed or abs(lh_delta_b) > 0.05 or abs(la_delta_b) > 0.05 or abs(lh_delta_r) > 0.05 or abs(la_delta_r) > 0.05:
             changes.append({
                 "home":         n["home"],
                 "away":         n["away"],
@@ -62,12 +66,18 @@ def compare(old: list, new: list) -> list:
                 "base_new":     n["base"]["prediction"],
                 "rich_old":     o["rich"]["prediction"],
                 "rich_new":     n["rich"]["prediction"],
-                "lh_old":       o["base"]["lambda_home"],
-                "la_old":       o["base"]["lambda_away"],
-                "lh_new":       n["base"]["lambda_home"],
-                "la_new":       n["base"]["lambda_away"],
-                "lh_delta":     round(lh_delta, 3),
-                "la_delta":     round(la_delta, 3),
+                "lhb_old":      o["base"]["lambda_home"],
+                "lab_old":      o["base"]["lambda_away"],
+                "lhb_new":      n["base"]["lambda_home"],
+                "lab_new":      n["base"]["lambda_away"],
+                "lhb_delta":    round(lh_delta_b, 3),
+                "lab_delta":    round(la_delta_b, 3),
+                "lhr_old":      o["rich"]["lambda_home"],
+                "lar_old":      o["rich"]["lambda_away"],
+                "lhr_new":      n["rich"]["lambda_home"],
+                "lar_new":      n["rich"]["lambda_away"],
+                "lhr_delta":    round(lh_delta_r, 3),
+                "lar_delta":    round(la_delta_r, 3),
                 "base_changed": base_changed,
                 "rich_changed": rich_changed,
                 "moneyline":    n.get("moneyline"),
@@ -84,11 +94,14 @@ def format_diff(changes: list, timestamp: str) -> str:
         date = c["start_time"][:10]
         base_str = f"BASE: `{c['base_old']}` → `{c['base_new']}`" if c["base_changed"] else f"BASE: `{c['base_new']}` *(sin cambio)*"
         rich_str = f"RICH: `{c['rich_old']}` → `{c['rich_new']}`" if c["rich_changed"] else f"RICH: `{c['rich_new']}` *(sin cambio)*"
-        lh_sym = "↑" if c["lh_delta"] > 0 else ("↓" if c["lh_delta"] < 0 else "=")
-        la_sym = "↑" if c["la_delta"] > 0 else ("↓" if c["la_delta"] < 0 else "=")
-        lambdas = f"λH: {c['lh_old']:.3f}→{c['lh_new']:.3f} {lh_sym} | λA: {c['la_old']:.3f}→{c['la_new']:.3f} {la_sym}"
-        odds = f"1X2: {fmt_1x2(c.get('moneyline'))}"
-        lines.append(f"**{c['home']} vs {c['away']}** ({date})\n  {base_str} | {rich_str}\n  {lambdas}\n  {odds}\n")
+        lhb_sym = "↑" if c["lhb_delta"] > 0 else ("↓" if c["lhb_delta"] < 0 else "=")
+        lab_sym = "↑" if c["lab_delta"] > 0 else ("↓" if c["lab_delta"] < 0 else "=")
+        lhr_sym = "↑" if c["lhr_delta"] > 0 else ("↓" if c["lhr_delta"] < 0 else "=")
+        lar_sym = "↑" if c["lar_delta"] > 0 else ("↓" if c["lar_delta"] < 0 else "=")
+        lambdas_b = f"BASE λH: {c['lhb_old']:.3f}→{c['lhb_new']:.3f}{lhb_sym} | λA: {c['lab_old']:.3f}→{c['lab_new']:.3f}{lab_sym}"
+        lambdas_r = f"RICH λH: {c['lhr_old']:.3f}→{c['lhr_new']:.3f}{lhr_sym} | λA: {c['lar_old']:.3f}→{c['lar_new']:.3f}{lar_sym}"
+        odds = f"1X2 Pinnacle: {fmt_1x2(c.get('moneyline'))}"
+        lines.append(f"**{c['home']} vs {c['away']}** ({date})\n  {base_str} | {rich_str}\n  {lambdas_b}\n  {lambdas_r}\n  {odds}\n")
     return "\n".join(lines)
 
 
@@ -106,7 +119,9 @@ def format_full(predictions: list, timestamp: str) -> str:
     for p in upcoming:
         dt_ar = datetime.fromisoformat(p["start_time"].replace("Z", "+00:00")).astimezone(TZ_AR)
         match = f"{p['home'][:12]} vs {p['away'][:12]}"
-        lines.append(f"{match:<28} {dt_ar.strftime('%d/%m %H:%M'):<11} {p['base']['prediction']:^6} {p['rich']['prediction']:^6}  {fmt_1x2(p.get('moneyline'))}")
+        ml = p.get("moneyline")
+        odds_str = fmt_1x2(ml) if ml else "—"
+        lines.append(f"{match:<28} {dt_ar.strftime('%d/%m %H:%M'):<11} {p['base']['prediction']:^6} {p['rich']['prediction']:^6}  {odds_str}")
     return "```\n" + "\n".join(lines) + "\n```"
 
 # ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -119,6 +134,52 @@ def should_send_daily() -> bool:
 
 def mark_daily_sent():
     Path(DAILY_FLAG).write_text(datetime.now(TZ_AR).date().isoformat())
+
+# ─── Lock predicciones ────────────────────────────────────────────────────────
+
+def lock_predictions(current: list) -> list:
+    """
+    Congela la predicción de partidos que están a menos de LOCK_HOURS del pitazo.
+    Solo se guarda una vez — si ya está en locked no se sobreescribe.
+    Retorna la lista de partidos recién bloqueados.
+    """
+    now = datetime.now(timezone.utc)
+
+    # Cargar locked existente
+    if Path(LOCKED_FILE).exists():
+        with open(LOCKED_FILE) as f:
+            locked = json.load(f)
+    else:
+        locked = []
+
+    locked_ids = {p["matchup_id"] for p in locked}
+    newly_locked = []
+
+    for p in current:
+        if p["matchup_id"] in locked_ids:
+            continue
+        start = datetime.fromisoformat(p["start_time"].replace("Z", "+00:00"))
+        time_to_kick = (start - now).total_seconds() / 3600
+        if 0 <= time_to_kick <= LOCK_HOURS:
+            locked.append({
+                "matchup_id":  p["matchup_id"],
+                "home":        p["home"],
+                "away":        p["away"],
+                "start_time":  p["start_time"],
+                "locked_at":   now.isoformat(),
+                "moneyline":   p.get("moneyline"),
+                "base":        p["base"],
+                "rich":        p["rich"],
+            })
+            locked_ids.add(p["matchup_id"])
+            newly_locked.append(p)
+
+    if newly_locked:
+        with open(LOCKED_FILE, "w") as f:
+            json.dump(locked, f, indent=2)
+
+    return newly_locked
+
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
@@ -151,13 +212,24 @@ def main():
     else:
         send_discord(f"🚀 **Primera corrida** — {timestamp}\nPredicciones generadas, sin comparación previa.")
 
-    # 4. Reporte diario
+    # 4. Congelar predicciones a 1 hora del pitazo
+    newly_locked = lock_predictions(current)
+    if newly_locked:
+        lines = [f"🔒 **Predicciones congeladas** — {timestamp}\n"]
+        for p in newly_locked:
+            lines.append(f"**{p['home']} vs {p['away']}** ({p['start_time'][:10]})")
+            lines.append(f"  BASE: `{p['base']['prediction']}` | RICH: `{p['rich']['prediction']}`")
+            lines.append(f"  1X2: {fmt_1x2(p.get('moneyline'))}\n")
+        send_discord("\n".join(lines))
+        print(f"Congelados: {len(newly_locked)} partidos.")
+
+    # 5. Reporte diario
     if should_send_daily():
         send_discord(format_full(current, timestamp))
         mark_daily_sent()
         print("Reporte diario enviado.")
 
-    # 5. Rotar
+    # 6. Rotar
     shutil.copy(CURRENT_FILE, LAST_FILE)
     print("predictions_last.json actualizado.")
 

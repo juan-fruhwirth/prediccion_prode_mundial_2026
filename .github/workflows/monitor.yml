@@ -30,6 +30,13 @@ jobs:
           key: predictions-last-${{ github.run_id }}
           restore-keys: predictions-last-
 
+      - name: Restore predictions_locked.json
+        uses: actions/cache@v4
+        with:
+          path: predictions_locked.json
+          key: predictions-locked-${{ github.run_id }}
+          restore-keys: predictions-locked-
+
       - name: Restore last_daily_report.txt
         uses: actions/cache@v4
         with:
@@ -48,6 +55,13 @@ jobs:
         with:
           path: predictions_last.json
           key: predictions-last-${{ github.run_id }}
+
+      - name: Save predictions_locked.json
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: predictions_locked.json
+          key: predictions-locked-${{ github.run_id }}
 
       - name: Save last_daily_report.txt
         uses: actions/cache/save@v4
