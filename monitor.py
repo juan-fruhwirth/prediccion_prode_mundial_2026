@@ -27,7 +27,6 @@ LAST_FILE       = "predictions_last.json"
 LOCKED_FILE     = "predictions_locked.json"
 DAILY_FLAG      = "last_daily_report.txt"
 TZ_AR           = timezone(timedelta(hours=-3))
-LOCK_HOURS      = 2 # congelar predicción N horas antes del pitazo
 
 # ─── Discord ──────────────────────────────────────────────────────────────────
 
@@ -152,31 +151,44 @@ def lock_predictions(current: list) -> list:
     else:
         locked = []
 
-    locked_ids = {p["matchup_id"] for p in locked}
+    # Partidos ya lockeados y ya empezados — esos no se tocan más
+    started_ids = set()
+    for entry in locked:
+        start = datetime.fromisoformat(entry["start_time"].replace("Z", "+00:00"))
+        if (now - start).total_seconds() > 0:
+            started_ids.add(entry["matchup_id"])
+
+    # Reconstruir locked: mantener los ya empezados, sobreescribir los que no
+    locked_started = [e for e in locked if e["matchup_id"] in started_ids]
     newly_locked = []
 
+    new_entries = []
     for p in current:
-        if p["matchup_id"] in locked_ids:
-            continue
+        if p["matchup_id"] in started_ids:
+            continue  # ya empezó y está guardado, no tocar
         start = datetime.fromisoformat(p["start_time"].replace("Z", "+00:00"))
         time_to_kick = (start - now).total_seconds() / 3600
-        if 0 <= time_to_kick <= LOCK_HOURS:
-            locked.append({
-                "matchup_id":  p["matchup_id"],
-                "home":        p["home"],
-                "away":        p["away"],
-                "start_time":  p["start_time"],
-                "locked_at":   now.isoformat(),
-                "moneyline":   p.get("moneyline"),
-                "base":        p["base"],
-                "rich":        p["rich"],
-            })
-            locked_ids.add(p["matchup_id"])
+        if time_to_kick < 0:
+            continue  # ya empezó pero no estaba en locked (raro), ignorar
+        # Sobreescribir siempre con la predicción más reciente
+        entry = {
+            "matchup_id":  p["matchup_id"],
+            "home":        p["home"],
+            "away":        p["away"],
+            "start_time":  p["start_time"],
+            "locked_at":   now.isoformat(),
+            "moneyline":   p.get("moneyline"),
+            "base":        p["base"],
+            "rich":        p["rich"],
+        }
+        new_entries.append(entry)
+        # Notificar solo si es la primera vez que aparece en locked
+        if p["matchup_id"] not in {e["matchup_id"] for e in locked}:
             newly_locked.append(p)
 
-    if newly_locked:
-        with open(LOCKED_FILE, "w") as f:
-            json.dump(locked, f, indent=2)
+    # Guardar: partidos ya empezados + predicciones actualizadas de los pendientes
+    with open(LOCKED_FILE, "w") as f:
+        json.dump(locked_started + new_entries, f, indent=2)
 
     return newly_locked
 

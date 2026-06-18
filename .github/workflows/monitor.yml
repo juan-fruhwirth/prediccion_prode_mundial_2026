@@ -2,7 +2,7 @@ name: Prode WC2026 Monitor
 
 on:
   schedule:
-    - cron: "0 */2 * * *"   # cada 2 horas
+    - cron: "*/30 * * * *"   # cada 30 min (en práctica corre cada 1-2h por delays de GitHub)
   workflow_dispatch:          # también se puede correr manualmente desde GitHub
 
 jobs:
