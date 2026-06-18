@@ -27,7 +27,7 @@ LAST_FILE       = "predictions_last.json"
 LOCKED_FILE     = "predictions_locked.json"
 DAILY_FLAG      = "last_daily_report.txt"
 TZ_AR           = timezone(timedelta(hours=-3))
-LOCK_HOURS      = 1  # congelar predicción N horas antes del pitazo
+LOCK_HOURS      = 2 # congelar predicción N horas antes del pitazo
 
 # ─── Discord ──────────────────────────────────────────────────────────────────
 
