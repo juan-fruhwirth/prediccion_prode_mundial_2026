@@ -69,3 +69,12 @@ jobs:
         with:
           path: last_daily_report.txt
           key: daily-flag-${{ github.run_id }}
+
+      - name: Commit predictions_locked.json
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add predictions_locked.json
+          git diff --cached --quiet || git commit -m "update predictions_locked.json [skip ci]"
+          git push
