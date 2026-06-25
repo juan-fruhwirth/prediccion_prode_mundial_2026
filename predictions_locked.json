@@ -6144,385 +6144,385 @@
     }
   },
   {
-    "matchup_id": 1631342068,
-    "home": "Curacao",
-    "away": "Ivory Coast",
+    "matchup_id": 1620858182,
+    "home": "Ecuador",
+    "away": "Germany",
     "start_time": "2026-06-25T20:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
-      "home": 0.0565,
-      "away": 0.8245,
-      "draw": 0.119
+      "home": 0.1799,
+      "away": 0.6306,
+      "draw": 0.1895
     },
     "base": {
-      "lambda_home": 0.838,
-      "lambda_away": 2.939,
-      "p_home": 0.0766,
-      "p_draw": 0.125,
-      "p_away": 0.7981,
-      "prediction": "0-2",
+      "lambda_home": 0.92,
+      "lambda_away": 1.906,
+      "p_home": 0.1766,
+      "p_draw": 0.2186,
+      "p_away": 0.6048,
+      "prediction": "0-1",
       "top20": [
         {
-          "score": "0-2",
-          "prob": 0.0989
-        },
-        {
-          "score": "0-3",
-          "prob": 0.0969
-        },
-        {
-          "score": "1-2",
-          "prob": 0.0828
-        },
-        {
-          "score": "1-3",
-          "prob": 0.0812
-        },
-        {
-          "score": "0-4",
-          "prob": 0.0712
-        },
-        {
           "score": "0-1",
-          "prob": 0.0673
+          "prob": 0.1129
         },
         {
-          "score": "1-4",
-          "prob": 0.0596
+          "score": "0-2",
+          "prob": 0.1076
         },
         {
           "score": "1-1",
-          "prob": 0.0564
+          "prob": 0.1039
         },
         {
-          "score": "0-5",
-          "prob": 0.0419
+          "score": "1-2",
+          "prob": 0.099
         },
         {
-          "score": "1-5",
-          "prob": 0.0351
+          "score": "0-3",
+          "prob": 0.0684
         },
         {
-          "score": "2-2",
-          "prob": 0.0347
-        },
-        {
-          "score": "2-3",
-          "prob": 0.034
-        },
-        {
-          "score": "2-4",
-          "prob": 0.025
-        },
-        {
-          "score": "2-1",
-          "prob": 0.0236
+          "score": "1-3",
+          "prob": 0.0629
         },
         {
           "score": "0-0",
-          "prob": 0.0229
-        },
-        {
-          "score": "0-6",
-          "prob": 0.0205
+          "prob": 0.0592
         },
         {
           "score": "1-0",
-          "prob": 0.0192
+          "prob": 0.0545
         },
         {
-          "score": "1-6",
-          "prob": 0.0172
+          "score": "2-1",
+          "prob": 0.0478
         },
         {
-          "score": "2-5",
+          "score": "2-2",
+          "prob": 0.0456
+        },
+        {
+          "score": "0-4",
+          "prob": 0.0326
+        },
+        {
+          "score": "1-4",
+          "prob": 0.03
+        },
+        {
+          "score": "2-3",
+          "prob": 0.0289
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0251
+        },
+        {
+          "score": "3-1",
           "prob": 0.0147
         },
         {
           "score": "3-2",
-          "prob": 0.0097
+          "prob": 0.014
+        },
+        {
+          "score": "2-4",
+          "prob": 0.0138
+        },
+        {
+          "score": "0-5",
+          "prob": 0.0124
+        },
+        {
+          "score": "1-5",
+          "prob": 0.0114
+        },
+        {
+          "score": "3-3",
+          "prob": 0.0089
         }
       ]
     },
     "rich": {
-      "lambda_home": 0.631,
-      "lambda_away": 2.751,
-      "p_home": 0.0604,
-      "p_draw": 0.124,
-      "p_away": 0.8154,
-      "prediction": "0-2",
+      "lambda_home": 1.05,
+      "lambda_away": 2.011,
+      "p_home": 0.1919,
+      "p_draw": 0.212,
+      "p_away": 0.5961,
+      "prediction": "1-2",
       "top20": [
         {
-          "score": "0-2",
-          "prob": 0.1286
-        },
-        {
-          "score": "0-3",
-          "prob": 0.1179
-        },
-        {
-          "score": "0-1",
-          "prob": 0.0935
-        },
-        {
-          "score": "0-4",
-          "prob": 0.0811
-        },
-        {
           "score": "1-2",
-          "prob": 0.0811
-        },
-        {
-          "score": "1-3",
-          "prob": 0.0744
+          "prob": 0.0994
         },
         {
           "score": "1-1",
-          "prob": 0.059
+          "prob": 0.0989
         },
         {
-          "score": "1-4",
-          "prob": 0.0512
+          "score": "0-2",
+          "prob": 0.0947
         },
         {
-          "score": "0-5",
-          "prob": 0.0446
+          "score": "0-1",
+          "prob": 0.0941
         },
         {
-          "score": "0-0",
-          "prob": 0.034
+          "score": "1-3",
+          "prob": 0.0667
         },
         {
-          "score": "1-5",
-          "prob": 0.0282
+          "score": "0-3",
+          "prob": 0.0635
         },
         {
           "score": "2-2",
-          "prob": 0.0256
-        },
-        {
-          "score": "2-3",
-          "prob": 0.0235
-        },
-        {
-          "score": "1-0",
-          "prob": 0.0214
-        },
-        {
-          "score": "0-6",
-          "prob": 0.0205
+          "prob": 0.0522
         },
         {
           "score": "2-1",
-          "prob": 0.0186
+          "prob": 0.0519
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0492
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0468
+        },
+        {
+          "score": "2-3",
+          "prob": 0.035
+        },
+        {
+          "score": "1-4",
+          "prob": 0.0335
+        },
+        {
+          "score": "0-4",
+          "prob": 0.0319
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0258
+        },
+        {
+          "score": "3-2",
+          "prob": 0.0183
+        },
+        {
+          "score": "3-1",
+          "prob": 0.0182
         },
         {
           "score": "2-4",
-          "prob": 0.0161
+          "prob": 0.0176
         },
         {
-          "score": "1-6",
-          "prob": 0.0129
+          "score": "1-5",
+          "prob": 0.0135
         },
         {
-          "score": "2-5",
-          "prob": 0.0089
+          "score": "0-5",
+          "prob": 0.0128
         },
         {
-          "score": "0-7",
-          "prob": 0.008
+          "score": "3-3",
+          "prob": 0.0123
         }
       ]
     }
   },
   {
-    "matchup_id": 1620858182,
-    "home": "Ecuador",
-    "away": "Germany",
+    "matchup_id": 1631342068,
+    "home": "Curacao",
+    "away": "Ivory Coast",
     "start_time": "2026-06-25T20:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
-      "home": 0.2451,
-      "away": 0.5345,
-      "draw": 0.2204
+      "home": 0.0522,
+      "away": 0.8353,
+      "draw": 0.1125
     },
     "base": {
-      "lambda_home": 1.036,
-      "lambda_away": 1.674,
-      "p_home": 0.2343,
-      "p_draw": 0.2427,
-      "p_away": 0.523,
-      "prediction": "0-1",
+      "lambda_home": 0.606,
+      "lambda_away": 3.003,
+      "p_home": 0.0471,
+      "p_draw": 0.1038,
+      "p_away": 0.8487,
+      "prediction": "0-3",
       "top20": [
         {
-          "score": "1-1",
-          "prob": 0.1154
-        },
-        {
-          "score": "0-1",
-          "prob": 0.1114
-        },
-        {
-          "score": "1-2",
-          "prob": 0.0966
+          "score": "0-3",
+          "prob": 0.1223
         },
         {
           "score": "0-2",
-          "prob": 0.0932
-        },
-        {
-          "score": "1-0",
-          "prob": 0.0689
-        },
-        {
-          "score": "0-0",
-          "prob": 0.0665
-        },
-        {
-          "score": "2-1",
-          "prob": 0.0598
-        },
-        {
-          "score": "1-3",
-          "prob": 0.0539
-        },
-        {
-          "score": "0-3",
-          "prob": 0.052
-        },
-        {
-          "score": "2-2",
-          "prob": 0.05
-        },
-        {
-          "score": "2-0",
-          "prob": 0.0357
-        },
-        {
-          "score": "2-3",
-          "prob": 0.0279
-        },
-        {
-          "score": "1-4",
-          "prob": 0.0226
+          "prob": 0.1222
         },
         {
           "score": "0-4",
-          "prob": 0.0218
+          "prob": 0.0918
         },
         {
-          "score": "3-1",
-          "prob": 0.0206
+          "score": "0-1",
+          "prob": 0.0814
         },
         {
-          "score": "3-2",
-          "prob": 0.0173
+          "score": "1-3",
+          "prob": 0.074
         },
         {
-          "score": "3-0",
-          "prob": 0.0123
+          "score": "1-2",
+          "prob": 0.074
         },
         {
-          "score": "2-4",
-          "prob": 0.0117
+          "score": "1-4",
+          "prob": 0.0556
         },
         {
-          "score": "3-3",
-          "prob": 0.0096
+          "score": "0-5",
+          "prob": 0.0551
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0493
         },
         {
           "score": "1-5",
-          "prob": 0.0076
+          "prob": 0.0334
+        },
+        {
+          "score": "0-6",
+          "prob": 0.0276
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0271
+        },
+        {
+          "score": "2-3",
+          "prob": 0.0224
+        },
+        {
+          "score": "2-2",
+          "prob": 0.0224
+        },
+        {
+          "score": "2-4",
+          "prob": 0.0168
+        },
+        {
+          "score": "1-6",
+          "prob": 0.0167
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0164
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0149
+        },
+        {
+          "score": "0-7",
+          "prob": 0.0118
+        },
+        {
+          "score": "2-5",
+          "prob": 0.0101
         }
       ]
     },
     "rich": {
-      "lambda_home": 1.173,
-      "lambda_away": 1.778,
-      "p_home": 0.2512,
-      "p_draw": 0.2332,
-      "p_away": 0.5156,
-      "prediction": "1-2",
+      "lambda_home": 0.551,
+      "lambda_away": 2.89,
+      "p_home": 0.0455,
+      "p_draw": 0.1073,
+      "p_away": 0.847,
+      "prediction": "0-2",
       "top20": [
         {
-          "score": "1-1",
-          "prob": 0.109
-        },
-        {
-          "score": "1-2",
-          "prob": 0.0969
-        },
-        {
-          "score": "0-1",
-          "prob": 0.093
-        },
-        {
           "score": "0-2",
-          "prob": 0.0827
-        },
-        {
-          "score": "2-1",
-          "prob": 0.0639
-        },
-        {
-          "score": "1-0",
-          "prob": 0.0613
-        },
-        {
-          "score": "1-3",
-          "prob": 0.0575
-        },
-        {
-          "score": "2-2",
-          "prob": 0.0569
-        },
-        {
-          "score": "0-0",
-          "prob": 0.0523
+          "prob": 0.1338
         },
         {
           "score": "0-3",
-          "prob": 0.049
-        },
-        {
-          "score": "2-0",
-          "prob": 0.036
-        },
-        {
-          "score": "2-3",
-          "prob": 0.0337
-        },
-        {
-          "score": "1-4",
-          "prob": 0.0255
-        },
-        {
-          "score": "3-1",
-          "prob": 0.025
-        },
-        {
-          "score": "3-2",
-          "prob": 0.0222
+          "prob": 0.1289
         },
         {
           "score": "0-4",
-          "prob": 0.0218
+          "prob": 0.0931
         },
         {
-          "score": "2-4",
-          "prob": 0.015
+          "score": "0-1",
+          "prob": 0.0926
         },
         {
-          "score": "3-0",
-          "prob": 0.0141
+          "score": "1-2",
+          "prob": 0.0737
         },
         {
-          "score": "3-3",
-          "prob": 0.0132
+          "score": "1-3",
+          "prob": 0.071
+        },
+        {
+          "score": "0-5",
+          "prob": 0.0538
+        },
+        {
+          "score": "1-4",
+          "prob": 0.0513
+        },
+        {
+          "score": "1-1",
+          "prob": 0.051
+        },
+        {
+          "score": "0-0",
+          "prob": 0.032
         },
         {
           "score": "1-5",
-          "prob": 0.0091
+          "prob": 0.0296
+        },
+        {
+          "score": "0-6",
+          "prob": 0.0259
+        },
+        {
+          "score": "2-2",
+          "prob": 0.0203
+        },
+        {
+          "score": "2-3",
+          "prob": 0.0196
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0176
+        },
+        {
+          "score": "1-6",
+          "prob": 0.0143
+        },
+        {
+          "score": "2-4",
+          "prob": 0.0141
+        },
+        {
+          "score": "2-1",
+          "prob": 0.014
+        },
+        {
+          "score": "0-7",
+          "prob": 0.0107
+        },
+        {
+          "score": "2-5",
+          "prob": 0.0082
         }
       ]
     }
@@ -6532,31 +6532,31 @@
     "home": "Tunisia",
     "away": "Netherlands",
     "start_time": "2026-06-25T23:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
-      "home": 0.0418,
-      "away": 0.8708,
-      "draw": 0.0873
+      "home": 0.0407,
+      "away": 0.8735,
+      "draw": 0.0857
     },
     "base": {
-      "lambda_home": 0.586,
-      "lambda_away": 3.204,
-      "p_home": 0.0386,
-      "p_draw": 0.0897,
-      "p_away": 0.8712,
+      "lambda_home": 0.587,
+      "lambda_away": 3.223,
+      "p_home": 0.0381,
+      "p_draw": 0.0886,
+      "p_away": 0.8728,
       "prediction": "0-3",
       "top20": [
         {
           "score": "0-3",
-          "prob": 0.1238
+          "prob": 0.1236
         },
         {
           "score": "0-2",
-          "prob": 0.116
+          "prob": 0.115
         },
         {
           "score": "0-4",
-          "prob": 0.0992
+          "prob": 0.0995
         },
         {
           "score": "1-3",
@@ -6564,157 +6564,157 @@
         },
         {
           "score": "0-1",
-          "prob": 0.0724
+          "prob": 0.0714
         },
         {
           "score": "1-2",
-          "prob": 0.068
+          "prob": 0.0675
         },
         {
           "score": "0-5",
-          "prob": 0.0635
+          "prob": 0.0642
         },
         {
           "score": "1-4",
-          "prob": 0.0582
+          "prob": 0.0585
         },
         {
           "score": "1-1",
-          "prob": 0.0424
+          "prob": 0.0419
         },
         {
           "score": "1-5",
-          "prob": 0.0373
+          "prob": 0.0377
         },
         {
           "score": "0-6",
-          "prob": 0.0339
+          "prob": 0.0345
         },
         {
           "score": "0-0",
-          "prob": 0.0226
+          "prob": 0.0222
         },
         {
           "score": "2-3",
           "prob": 0.0213
         },
         {
-          "score": "2-2",
-          "prob": 0.0199
+          "score": "1-6",
+          "prob": 0.0202
         },
         {
-          "score": "1-6",
-          "prob": 0.0199
+          "score": "2-2",
+          "prob": 0.0198
         },
         {
           "score": "2-4",
-          "prob": 0.017
+          "prob": 0.0172
         },
         {
           "score": "0-7",
-          "prob": 0.0155
+          "prob": 0.0159
         },
         {
           "score": "1-0",
-          "prob": 0.0132
+          "prob": 0.013
         },
         {
           "score": "2-1",
-          "prob": 0.0124
+          "prob": 0.0123
         },
         {
           "score": "2-5",
-          "prob": 0.0109
+          "prob": 0.0111
         }
       ]
     },
     "rich": {
-      "lambda_home": 0.501,
-      "lambda_away": 3.097,
-      "p_home": 0.034,
-      "p_draw": 0.0894,
-      "p_away": 0.8762,
+      "lambda_home": 0.503,
+      "lambda_away": 3.123,
+      "p_home": 0.0335,
+      "p_draw": 0.0881,
+      "p_away": 0.878,
       "prediction": "0-3",
       "top20": [
         {
           "score": "0-3",
-          "prob": 0.1356
+          "prob": 0.1351
         },
         {
           "score": "0-2",
-          "prob": 0.1313
+          "prob": 0.1298
         },
         {
           "score": "0-4",
-          "prob": 0.105
+          "prob": 0.1055
         },
         {
           "score": "0-1",
-          "prob": 0.0848
+          "prob": 0.0831
         },
         {
           "score": "1-3",
-          "prob": 0.0679
-        },
-        {
-          "score": "1-2",
-          "prob": 0.0658
+          "prob": 0.068
         },
         {
           "score": "0-5",
-          "prob": 0.065
+          "prob": 0.0659
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0653
         },
         {
           "score": "1-4",
-          "prob": 0.0526
+          "prob": 0.0531
         },
         {
           "score": "1-1",
-          "prob": 0.0425
+          "prob": 0.0418
         },
         {
           "score": "0-6",
-          "prob": 0.0336
+          "prob": 0.0343
         },
         {
           "score": "1-5",
-          "prob": 0.0326
+          "prob": 0.0331
         },
         {
           "score": "0-0",
-          "prob": 0.0274
-        },
-        {
-          "score": "2-3",
-          "prob": 0.017
+          "prob": 0.0266
         },
         {
           "score": "1-6",
-          "prob": 0.0168
+          "prob": 0.0173
+        },
+        {
+          "score": "2-3",
+          "prob": 0.0171
         },
         {
           "score": "2-2",
-          "prob": 0.0165
+          "prob": 0.0164
         },
         {
           "score": "0-7",
-          "prob": 0.0148
+          "prob": 0.0153
         },
         {
           "score": "1-0",
-          "prob": 0.0137
+          "prob": 0.0134
         },
         {
           "score": "2-4",
-          "prob": 0.0132
+          "prob": 0.0134
         },
         {
           "score": "2-1",
-          "prob": 0.0106
+          "prob": 0.0105
         },
         {
           "score": "2-5",
-          "prob": 0.0081
+          "prob": 0.0083
         }
       ]
     }
@@ -6724,117 +6724,117 @@
     "home": "Japan",
     "away": "Sweden",
     "start_time": "2026-06-25T23:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
-      "home": 0.5149,
-      "away": 0.2106,
-      "draw": 0.2746
+      "home": 0.5151,
+      "away": 0.2071,
+      "draw": 0.2779
     },
     "base": {
-      "lambda_home": 1.607,
-      "lambda_away": 0.98,
-      "p_home": 0.5201,
-      "p_draw": 0.2494,
-      "p_away": 0.2305,
+      "lambda_home": 1.678,
+      "lambda_away": 1.039,
+      "p_home": 0.5234,
+      "p_draw": 0.2423,
+      "p_away": 0.2343,
       "prediction": "1-0",
       "top20": [
         {
-          "score": "1-0",
-          "prob": 0.121
-        },
-        {
           "score": "1-1",
-          "prob": 0.1185
+          "prob": 0.1152
         },
         {
-          "score": "2-0",
-          "prob": 0.0972
+          "score": "1-0",
+          "prob": 0.1109
         },
         {
           "score": "2-1",
-          "prob": 0.0952
+          "prob": 0.0967
         },
         {
-          "score": "0-0",
-          "prob": 0.0753
+          "score": "2-0",
+          "prob": 0.0931
         },
         {
           "score": "0-1",
-          "prob": 0.0738
+          "prob": 0.0686
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0661
         },
         {
           "score": "1-2",
-          "prob": 0.0581
-        },
-        {
-          "score": "3-0",
-          "prob": 0.052
+          "prob": 0.0598
         },
         {
           "score": "3-1",
-          "prob": 0.051
+          "prob": 0.0541
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0521
         },
         {
           "score": "2-2",
-          "prob": 0.0466
+          "prob": 0.0502
         },
         {
           "score": "0-2",
-          "prob": 0.0361
+          "prob": 0.0356
         },
         {
           "score": "3-2",
-          "prob": 0.025
-        },
-        {
-          "score": "4-0",
-          "prob": 0.0209
+          "prob": 0.0281
         },
         {
           "score": "4-1",
-          "prob": 0.0205
+          "prob": 0.0227
+        },
+        {
+          "score": "4-0",
+          "prob": 0.0218
         },
         {
           "score": "1-3",
-          "prob": 0.019
+          "prob": 0.0207
         },
         {
           "score": "2-3",
-          "prob": 0.0152
+          "prob": 0.0174
         },
         {
           "score": "0-3",
-          "prob": 0.0118
+          "prob": 0.0123
         },
         {
           "score": "4-2",
-          "prob": 0.01
+          "prob": 0.0118
         },
         {
           "score": "3-3",
-          "prob": 0.0082
+          "prob": 0.0097
         },
         {
-          "score": "5-0",
-          "prob": 0.0067
+          "score": "5-1",
+          "prob": 0.0076
         }
       ]
     },
     "rich": {
-      "lambda_home": 1.798,
-      "lambda_away": 1.098,
-      "p_home": 0.5375,
-      "p_draw": 0.2315,
-      "p_away": 0.2309,
+      "lambda_home": 1.781,
+      "lambda_away": 1.078,
+      "p_home": 0.5383,
+      "p_draw": 0.233,
+      "p_away": 0.2287,
       "prediction": "1-0",
       "top20": [
         {
           "score": "1-1",
-          "prob": 0.1091
+          "prob": 0.1101
         },
         {
           "score": "1-0",
-          "prob": 0.0993
+          "prob": 0.1021
         },
         {
           "score": "2-1",
@@ -6842,31 +6842,31 @@
         },
         {
           "score": "2-0",
-          "prob": 0.0893
+          "prob": 0.0909
         },
         {
           "score": "0-1",
-          "prob": 0.0607
+          "prob": 0.0618
         },
         {
           "score": "1-2",
-          "prob": 0.0599
+          "prob": 0.0593
         },
         {
           "score": "3-1",
-          "prob": 0.0588
+          "prob": 0.0582
         },
         {
           "score": "0-0",
-          "prob": 0.0552
-        },
-        {
-          "score": "2-2",
-          "prob": 0.0538
+          "prob": 0.0573
         },
         {
           "score": "3-0",
-          "prob": 0.0535
+          "prob": 0.054
+        },
+        {
+          "score": "2-2",
+          "prob": 0.0528
         },
         {
           "score": "0-2",
@@ -6874,231 +6874,39 @@
         },
         {
           "score": "3-2",
-          "prob": 0.0323
+          "prob": 0.0314
         },
         {
           "score": "4-1",
-          "prob": 0.0264
+          "prob": 0.0259
         },
         {
           "score": "4-0",
-          "prob": 0.0241
+          "prob": 0.024
         },
         {
           "score": "1-3",
-          "prob": 0.0219
+          "prob": 0.0213
         },
         {
           "score": "2-3",
-          "prob": 0.0197
+          "prob": 0.019
         },
         {
           "score": "4-2",
-          "prob": 0.0145
+          "prob": 0.014
         },
         {
           "score": "0-3",
-          "prob": 0.0122
+          "prob": 0.012
         },
         {
           "score": "3-3",
-          "prob": 0.0118
+          "prob": 0.0113
         },
         {
           "score": "5-1",
-          "prob": 0.0095
-        }
-      ]
-    }
-  },
-  {
-    "matchup_id": 1620858183,
-    "home": "Paraguay",
-    "away": "Australia",
-    "start_time": "2026-06-26T02:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
-    "moneyline": {
-      "home": 0.3432,
-      "away": 0.2339,
-      "draw": 0.4229
-    },
-    "base": {
-      "lambda_home": 0.925,
-      "lambda_away": 0.694,
-      "p_home": 0.3919,
-      "p_draw": 0.3473,
-      "p_away": 0.2608,
-      "prediction": "1-0",
-      "top20": [
-        {
-          "score": "0-0",
-          "prob": 0.1982
-        },
-        {
-          "score": "1-0",
-          "prob": 0.1833
-        },
-        {
-          "score": "0-1",
-          "prob": 0.1375
-        },
-        {
-          "score": "1-1",
-          "prob": 0.1272
-        },
-        {
-          "score": "2-0",
-          "prob": 0.0847
-        },
-        {
-          "score": "2-1",
-          "prob": 0.0588
-        },
-        {
-          "score": "0-2",
-          "prob": 0.0477
-        },
-        {
-          "score": "1-2",
-          "prob": 0.0441
-        },
-        {
-          "score": "3-0",
-          "prob": 0.0261
-        },
-        {
-          "score": "2-2",
-          "prob": 0.0204
-        },
-        {
-          "score": "3-1",
-          "prob": 0.0181
-        },
-        {
-          "score": "0-3",
-          "prob": 0.011
-        },
-        {
-          "score": "1-3",
-          "prob": 0.0102
-        },
-        {
-          "score": "3-2",
-          "prob": 0.0063
-        },
-        {
-          "score": "4-0",
-          "prob": 0.006
-        },
-        {
-          "score": "2-3",
-          "prob": 0.0047
-        },
-        {
-          "score": "4-1",
-          "prob": 0.0042
-        },
-        {
-          "score": "0-4",
-          "prob": 0.0019
-        },
-        {
-          "score": "1-4",
-          "prob": 0.0018
-        },
-        {
-          "score": "3-3",
-          "prob": 0.0015
-        }
-      ]
-    },
-    "rich": {
-      "lambda_home": 1.114,
-      "lambda_away": 0.818,
-      "p_home": 0.4232,
-      "p_draw": 0.3101,
-      "p_away": 0.2667,
-      "prediction": "1-0",
-      "top20": [
-        {
-          "score": "1-0",
-          "prob": 0.1613
-        },
-        {
-          "score": "0-0",
-          "prob": 0.1448
-        },
-        {
-          "score": "1-1",
-          "prob": 0.132
-        },
-        {
-          "score": "0-1",
-          "prob": 0.1185
-        },
-        {
-          "score": "2-0",
-          "prob": 0.0899
-        },
-        {
-          "score": "2-1",
-          "prob": 0.0735
-        },
-        {
-          "score": "1-2",
-          "prob": 0.054
-        },
-        {
-          "score": "0-2",
-          "prob": 0.0485
-        },
-        {
-          "score": "3-0",
-          "prob": 0.0334
-        },
-        {
-          "score": "2-2",
-          "prob": 0.0301
-        },
-        {
-          "score": "3-1",
-          "prob": 0.0273
-        },
-        {
-          "score": "1-3",
-          "prob": 0.0147
-        },
-        {
-          "score": "0-3",
-          "prob": 0.0132
-        },
-        {
-          "score": "3-2",
-          "prob": 0.0112
-        },
-        {
-          "score": "4-0",
-          "prob": 0.0093
-        },
-        {
-          "score": "2-3",
-          "prob": 0.0082
-        },
-        {
-          "score": "4-1",
-          "prob": 0.0076
-        },
-        {
-          "score": "4-2",
-          "prob": 0.0031
-        },
-        {
-          "score": "3-3",
-          "prob": 0.003
-        },
-        {
-          "score": "1-4",
-          "prob": 0.003
+          "prob": 0.0092
         }
       ]
     }
@@ -7108,189 +6916,381 @@
     "home": "Turkiye",
     "away": "USA",
     "start_time": "2026-06-26T02:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
-      "home": 0.2751,
-      "away": 0.4941,
-      "draw": 0.2308
+      "home": 0.2596,
+      "away": 0.5159,
+      "draw": 0.2245
     },
     "base": {
-      "lambda_home": 1.097,
-      "lambda_away": 1.594,
-      "p_home": 0.2617,
-      "p_draw": 0.2494,
-      "p_away": 0.4889,
+      "lambda_home": 1.081,
+      "lambda_away": 1.655,
+      "p_home": 0.2482,
+      "p_draw": 0.2442,
+      "p_away": 0.5075,
       "prediction": "0-1",
       "top20": [
         {
           "score": "1-1",
-          "prob": 0.1186
+          "prob": 0.116
         },
         {
           "score": "0-1",
-          "prob": 0.1081
+          "prob": 0.1073
         },
         {
           "score": "1-2",
-          "prob": 0.0945
+          "prob": 0.096
         },
         {
           "score": "0-2",
-          "prob": 0.0862
+          "prob": 0.0888
         },
         {
           "score": "1-0",
-          "prob": 0.0744
+          "prob": 0.0701
         },
         {
           "score": "0-0",
-          "prob": 0.0678
+          "prob": 0.0648
         },
         {
           "score": "2-1",
-          "prob": 0.065
-        },
-        {
-          "score": "2-2",
-          "prob": 0.0518
+          "prob": 0.0627
         },
         {
           "score": "1-3",
-          "prob": 0.0502
+          "prob": 0.0529
+        },
+        {
+          "score": "2-2",
+          "prob": 0.0519
         },
         {
           "score": "0-3",
-          "prob": 0.0458
+          "prob": 0.049
         },
         {
           "score": "2-0",
-          "prob": 0.0408
+          "prob": 0.0379
         },
         {
           "score": "2-3",
-          "prob": 0.0276
+          "prob": 0.0286
         },
         {
           "score": "3-1",
-          "prob": 0.0238
+          "prob": 0.0226
         },
         {
           "score": "1-4",
-          "prob": 0.02
-        },
-        {
-          "score": "3-2",
-          "prob": 0.019
+          "prob": 0.0219
         },
         {
           "score": "0-4",
-          "prob": 0.0183
+          "prob": 0.0203
+        },
+        {
+          "score": "3-2",
+          "prob": 0.0187
         },
         {
           "score": "3-0",
-          "prob": 0.0149
+          "prob": 0.0137
         },
         {
           "score": "2-4",
-          "prob": 0.011
+          "prob": 0.0118
         },
         {
           "score": "3-3",
-          "prob": 0.0101
+          "prob": 0.0103
         },
         {
-          "score": "4-1",
-          "prob": 0.0065
+          "score": "1-5",
+          "prob": 0.0072
         }
       ]
     },
     "rich": {
-      "lambda_home": 1.233,
-      "lambda_away": 1.702,
-      "p_home": 0.2775,
-      "p_draw": 0.2387,
-      "p_away": 0.4838,
+      "lambda_home": 1.214,
+      "lambda_away": 1.765,
+      "p_home": 0.2628,
+      "p_draw": 0.2341,
+      "p_away": 0.5031,
       "prediction": "1-2",
       "top20": [
         {
           "score": "1-1",
-          "prob": 0.1115
+          "prob": 0.1089
         },
         {
           "score": "1-2",
-          "prob": 0.0949
+          "prob": 0.0961
         },
         {
           "score": "0-1",
-          "prob": 0.0904
+          "prob": 0.0897
         },
         {
           "score": "0-2",
-          "prob": 0.0769
+          "prob": 0.0792
         },
         {
           "score": "2-1",
-          "prob": 0.0688
+          "prob": 0.0661
         },
         {
           "score": "1-0",
-          "prob": 0.0655
+          "prob": 0.0617
         },
         {
           "score": "2-2",
-          "prob": 0.0585
+          "prob": 0.0584
         },
         {
           "score": "1-3",
-          "prob": 0.0538
+          "prob": 0.0566
         },
         {
           "score": "0-0",
-          "prob": 0.0531
+          "prob": 0.0508
         },
         {
           "score": "0-3",
-          "prob": 0.0436
+          "prob": 0.0466
         },
         {
           "score": "2-0",
-          "prob": 0.0404
+          "prob": 0.0375
         },
         {
           "score": "2-3",
-          "prob": 0.0332
+          "prob": 0.0343
         },
         {
           "score": "3-1",
-          "prob": 0.0283
-        },
-        {
-          "score": "3-2",
-          "prob": 0.024
+          "prob": 0.0268
         },
         {
           "score": "1-4",
-          "prob": 0.0229
+          "prob": 0.025
+        },
+        {
+          "score": "3-2",
+          "prob": 0.0236
         },
         {
           "score": "0-4",
-          "prob": 0.0186
+          "prob": 0.0206
         },
         {
           "score": "3-0",
-          "prob": 0.0166
+          "prob": 0.0152
         },
         {
           "score": "2-4",
-          "prob": 0.0141
+          "prob": 0.0152
         },
         {
           "score": "3-3",
-          "prob": 0.0136
+          "prob": 0.0139
+        },
+        {
+          "score": "1-5",
+          "prob": 0.0088
+        }
+      ]
+    }
+  },
+  {
+    "matchup_id": 1620858183,
+    "home": "Paraguay",
+    "away": "Australia",
+    "start_time": "2026-06-26T02:00:00Z",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
+    "moneyline": {
+      "home": 0.3372,
+      "away": 0.2322,
+      "draw": 0.4306
+    },
+    "base": {
+      "lambda_home": 0.909,
+      "lambda_away": 0.686,
+      "p_home": 0.3884,
+      "p_draw": 0.3506,
+      "p_away": 0.261,
+      "prediction": "1-0",
+      "top20": [
+        {
+          "score": "0-0",
+          "prob": 0.2029
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1844
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1392
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1265
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0838
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0575
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0478
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0434
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0254
+        },
+        {
+          "score": "2-2",
+          "prob": 0.0197
+        },
+        {
+          "score": "3-1",
+          "prob": 0.0174
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0109
+        },
+        {
+          "score": "1-3",
+          "prob": 0.0099
+        },
+        {
+          "score": "3-2",
+          "prob": 0.006
+        },
+        {
+          "score": "4-0",
+          "prob": 0.0058
+        },
+        {
+          "score": "2-3",
+          "prob": 0.0045
         },
         {
           "score": "4-1",
-          "prob": 0.0087
+          "prob": 0.004
+        },
+        {
+          "score": "0-4",
+          "prob": 0.0019
+        },
+        {
+          "score": "1-4",
+          "prob": 0.0017
+        },
+        {
+          "score": "3-3",
+          "prob": 0.0014
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.098,
+      "lambda_away": 0.812,
+      "p_home": 0.4199,
+      "p_draw": 0.3126,
+      "p_away": 0.2675,
+      "prediction": "1-0",
+      "top20": [
+        {
+          "score": "1-0",
+          "prob": 0.1627
+        },
+        {
+          "score": "0-0",
+          "prob": 0.1481
+        },
+        {
+          "score": "1-1",
+          "prob": 0.132
+        },
+        {
+          "score": "0-1",
+          "prob": 0.1202
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0893
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0725
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0536
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0488
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0327
+        },
+        {
+          "score": "2-2",
+          "prob": 0.0294
+        },
+        {
+          "score": "3-1",
+          "prob": 0.0265
+        },
+        {
+          "score": "1-3",
+          "prob": 0.0145
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0132
+        },
+        {
+          "score": "3-2",
+          "prob": 0.0108
+        },
+        {
+          "score": "4-0",
+          "prob": 0.009
+        },
+        {
+          "score": "2-3",
+          "prob": 0.008
+        },
+        {
+          "score": "4-1",
+          "prob": 0.0073
+        },
+        {
+          "score": "4-2",
+          "prob": 0.003
+        },
+        {
+          "score": "1-4",
+          "prob": 0.0029
+        },
+        {
+          "score": "3-3",
+          "prob": 0.0029
         }
       ]
     }
@@ -7300,31 +7300,31 @@
     "home": "Senegal",
     "away": "Iraq",
     "start_time": "2026-06-26T19:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
-      "home": 0.7838,
-      "away": 0.0767,
-      "draw": 0.1395
+      "home": 0.7767,
+      "away": 0.0804,
+      "draw": 0.1429
     },
     "base": {
-      "lambda_home": 2.853,
-      "lambda_away": 0.933,
-      "p_home": 0.7683,
-      "p_draw": 0.1373,
-      "p_away": 0.0942,
+      "lambda_home": 2.83,
+      "lambda_away": 0.943,
+      "p_home": 0.763,
+      "p_draw": 0.1396,
+      "p_away": 0.0972,
       "prediction": "2-0",
       "top20": [
         {
           "score": "2-0",
-          "prob": 0.0924
+          "prob": 0.0921
         },
         {
           "score": "3-0",
-          "prob": 0.0878
+          "prob": 0.0869
         },
         {
           "score": "2-1",
-          "prob": 0.0861
+          "prob": 0.0868
         },
         {
           "score": "3-1",
@@ -7332,59 +7332,59 @@
         },
         {
           "score": "1-0",
-          "prob": 0.0647
+          "prob": 0.0651
         },
         {
           "score": "4-0",
-          "prob": 0.0627
+          "prob": 0.0614
         },
         {
           "score": "1-1",
-          "prob": 0.0604
+          "prob": 0.0613
         },
         {
           "score": "4-1",
-          "prob": 0.0584
+          "prob": 0.0579
         },
         {
           "score": "2-2",
-          "prob": 0.0402
+          "prob": 0.0409
         },
         {
           "score": "3-2",
-          "prob": 0.0382
+          "prob": 0.0386
         },
         {
           "score": "5-0",
-          "prob": 0.0358
+          "prob": 0.0348
         },
         {
           "score": "5-1",
-          "prob": 0.0333
+          "prob": 0.0328
         },
         {
           "score": "1-2",
-          "prob": 0.0281
+          "prob": 0.0289
         },
         {
           "score": "4-2",
-          "prob": 0.0272
+          "prob": 0.0273
         },
         {
           "score": "0-0",
-          "prob": 0.0227
+          "prob": 0.023
         },
         {
           "score": "0-1",
-          "prob": 0.0212
+          "prob": 0.0217
         },
         {
           "score": "6-0",
-          "prob": 0.017
+          "prob": 0.0164
         },
         {
           "score": "6-1",
-          "prob": 0.0159
+          "prob": 0.0155
         },
         {
           "score": "5-2",
@@ -7392,97 +7392,97 @@
         },
         {
           "score": "2-3",
-          "prob": 0.0125
+          "prob": 0.0129
         }
       ]
     },
     "rich": {
-      "lambda_home": 2.714,
-      "lambda_away": 0.719,
-      "p_home": 0.7927,
-      "p_draw": 0.1336,
-      "p_away": 0.0736,
+      "lambda_home": 2.69,
+      "lambda_away": 0.733,
+      "p_home": 0.7864,
+      "p_draw": 0.1366,
+      "p_away": 0.0769,
       "prediction": "2-0",
       "top20": [
         {
           "score": "2-0",
-          "prob": 0.1189
+          "prob": 0.118
         },
         {
           "score": "3-0",
-          "prob": 0.1076
+          "prob": 0.1058
         },
         {
           "score": "1-0",
-          "prob": 0.0876
+          "prob": 0.0877
         },
         {
           "score": "2-1",
-          "prob": 0.0855
+          "prob": 0.0865
         },
         {
           "score": "3-1",
-          "prob": 0.0774
+          "prob": 0.0776
         },
         {
           "score": "4-0",
-          "prob": 0.073
+          "prob": 0.0711
         },
         {
           "score": "1-1",
-          "prob": 0.063
+          "prob": 0.0643
         },
         {
           "score": "4-1",
-          "prob": 0.0525
+          "prob": 0.0522
         },
         {
           "score": "5-0",
-          "prob": 0.0396
+          "prob": 0.0383
         },
         {
           "score": "0-0",
-          "prob": 0.0323
+          "prob": 0.0326
         },
         {
           "score": "2-2",
-          "prob": 0.0307
-        },
-        {
-          "score": "5-1",
-          "prob": 0.0285
+          "prob": 0.0317
         },
         {
           "score": "3-2",
-          "prob": 0.0278
+          "prob": 0.0284
+        },
+        {
+          "score": "5-1",
+          "prob": 0.0281
         },
         {
           "score": "0-1",
-          "prob": 0.0232
+          "prob": 0.0239
         },
         {
           "score": "1-2",
-          "prob": 0.0226
+          "prob": 0.0236
         },
         {
           "score": "4-2",
-          "prob": 0.0189
+          "prob": 0.0191
         },
         {
           "score": "6-0",
-          "prob": 0.0179
+          "prob": 0.0171
         },
         {
           "score": "6-1",
-          "prob": 0.0129
+          "prob": 0.0126
         },
         {
           "score": "5-2",
-          "prob": 0.0102
+          "prob": 0.0103
         },
         {
           "score": "0-2",
-          "prob": 0.0083
+          "prob": 0.0088
         }
       ]
     }
@@ -7492,117 +7492,117 @@
     "home": "Norway",
     "away": "France",
     "start_time": "2026-06-26T19:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
-      "home": 0.2042,
-      "away": 0.5742,
-      "draw": 0.2216
+      "home": 0.1985,
+      "away": 0.5827,
+      "draw": 0.2189
     },
     "base": {
-      "lambda_home": 0.972,
-      "lambda_away": 1.765,
-      "p_home": 0.2061,
-      "p_draw": 0.2336,
-      "p_away": 0.5603,
+      "lambda_home": 0.963,
+      "lambda_away": 1.787,
+      "p_home": 0.2012,
+      "p_draw": 0.2313,
+      "p_away": 0.5675,
       "prediction": "0-1",
       "top20": [
         {
           "score": "0-1",
-          "prob": 0.1143
+          "prob": 0.1142
         },
         {
           "score": "1-1",
-          "prob": 0.1111
+          "prob": 0.11
         },
         {
           "score": "0-2",
-          "prob": 0.1009
+          "prob": 0.102
         },
         {
           "score": "1-2",
-          "prob": 0.0981
+          "prob": 0.0983
         },
         {
           "score": "0-0",
-          "prob": 0.0647
+          "prob": 0.0639
         },
         {
           "score": "1-0",
-          "prob": 0.0629
+          "prob": 0.0615
         },
         {
           "score": "0-3",
-          "prob": 0.0594
+          "prob": 0.0608
         },
         {
           "score": "1-3",
-          "prob": 0.0577
+          "prob": 0.0586
         },
         {
           "score": "2-1",
-          "prob": 0.054
+          "prob": 0.053
         },
         {
           "score": "2-2",
-          "prob": 0.0477
+          "prob": 0.0474
         },
         {
           "score": "2-0",
-          "prob": 0.0306
+          "prob": 0.0296
         },
         {
           "score": "2-3",
-          "prob": 0.028
+          "prob": 0.0282
         },
         {
           "score": "0-4",
-          "prob": 0.0262
+          "prob": 0.0272
         },
         {
           "score": "1-4",
-          "prob": 0.0255
+          "prob": 0.0262
         },
         {
           "score": "3-1",
-          "prob": 0.0175
+          "prob": 0.017
         },
         {
           "score": "3-2",
-          "prob": 0.0154
+          "prob": 0.0152
         },
         {
           "score": "2-4",
-          "prob": 0.0124
-        },
-        {
-          "score": "3-0",
-          "prob": 0.0099
+          "prob": 0.0126
         },
         {
           "score": "0-5",
-          "prob": 0.0093
+          "prob": 0.0097
         },
         {
-          "score": "3-3",
-          "prob": 0.0091
+          "score": "3-0",
+          "prob": 0.0095
+        },
+        {
+          "score": "1-5",
+          "prob": 0.0094
         }
       ]
     },
     "rich": {
-      "lambda_home": 1.107,
-      "lambda_away": 1.883,
-      "p_home": 0.221,
-      "p_draw": 0.2242,
-      "p_away": 0.5548,
+      "lambda_home": 1.098,
+      "lambda_away": 1.904,
+      "p_home": 0.2161,
+      "p_draw": 0.2222,
+      "p_away": 0.5617,
       "prediction": "1-2",
       "top20": [
         {
           "score": "1-1",
-          "prob": 0.1048
+          "prob": 0.1039
         },
         {
           "score": "1-2",
-          "prob": 0.0987
+          "prob": 0.0989
         },
         {
           "score": "0-1",
@@ -7610,70 +7610,70 @@
         },
         {
           "score": "0-2",
-          "prob": 0.0891
+          "prob": 0.09
         },
         {
           "score": "1-3",
-          "prob": 0.062
-        },
-        {
-          "score": "2-1",
-          "prob": 0.058
+          "prob": 0.0628
         },
         {
           "score": "0-3",
-          "prob": 0.0559
+          "prob": 0.0572
+        },
+        {
+          "score": "2-1",
+          "prob": 0.057
         },
         {
           "score": "1-0",
-          "prob": 0.0557
+          "prob": 0.0545
         },
         {
           "score": "2-2",
-          "prob": 0.0546
+          "prob": 0.0543
         },
         {
           "score": "0-0",
-          "prob": 0.0503
+          "prob": 0.0497
         },
         {
           "score": "2-3",
-          "prob": 0.0343
+          "prob": 0.0345
         },
         {
           "score": "2-0",
-          "prob": 0.0308
+          "prob": 0.0299
         },
         {
           "score": "1-4",
-          "prob": 0.0292
+          "prob": 0.0299
         },
         {
           "score": "0-4",
-          "prob": 0.0263
+          "prob": 0.0272
         },
         {
           "score": "3-1",
-          "prob": 0.0214
+          "prob": 0.0209
         },
         {
           "score": "3-2",
-          "prob": 0.0202
+          "prob": 0.0199
         },
         {
           "score": "2-4",
-          "prob": 0.0161
+          "prob": 0.0164
         },
         {
           "score": "3-3",
-          "prob": 0.0127
-        },
-        {
-          "score": "3-0",
-          "prob": 0.0114
+          "prob": 0.0126
         },
         {
           "score": "1-5",
+          "prob": 0.0114
+        },
+        {
+          "score": "3-0",
           "prob": 0.011
         }
       ]
@@ -7684,87 +7684,87 @@
     "home": "Uruguay",
     "away": "Spain",
     "start_time": "2026-06-27T00:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
-      "home": 0.1304,
-      "away": 0.6377,
-      "draw": 0.232
+      "home": 0.132,
+      "away": 0.6344,
+      "draw": 0.2337
     },
     "base": {
-      "lambda_home": 0.843,
-      "lambda_away": 1.887,
-      "p_home": 0.1619,
-      "p_draw": 0.2183,
-      "p_away": 0.6198,
+      "lambda_home": 0.844,
+      "lambda_away": 1.876,
+      "p_home": 0.1633,
+      "p_draw": 0.2195,
+      "p_away": 0.6172,
       "prediction": "0-1",
       "top20": [
         {
           "score": "0-1",
-          "prob": 0.1231
+          "prob": 0.1236
         },
         {
           "score": "0-2",
-          "prob": 0.1162
+          "prob": 0.1159
         },
         {
           "score": "1-1",
-          "prob": 0.1037
+          "prob": 0.1043
         },
         {
           "score": "1-2",
-          "prob": 0.0979
+          "prob": 0.0978
         },
         {
           "score": "0-3",
-          "prob": 0.0731
+          "prob": 0.0725
         },
         {
           "score": "0-0",
-          "prob": 0.0653
+          "prob": 0.0659
         },
         {
           "score": "1-3",
-          "prob": 0.0616
+          "prob": 0.0612
         },
         {
           "score": "1-0",
-          "prob": 0.055
+          "prob": 0.0556
         },
         {
           "score": "2-1",
-          "prob": 0.0437
+          "prob": 0.044
         },
         {
           "score": "2-2",
-          "prob": 0.0412
+          "prob": 0.0413
         },
         {
           "score": "0-4",
-          "prob": 0.0345
+          "prob": 0.034
         },
         {
           "score": "1-4",
-          "prob": 0.029
+          "prob": 0.0287
         },
         {
           "score": "2-3",
-          "prob": 0.0259
+          "prob": 0.0258
         },
         {
           "score": "2-0",
-          "prob": 0.0232
+          "prob": 0.0235
         },
         {
           "score": "0-5",
-          "prob": 0.013
+          "prob": 0.0128
         },
         {
           "score": "3-1",
-          "prob": 0.0123
+          "prob": 0.0124
         },
         {
           "score": "2-4",
-          "prob": 0.0122
+          "prob": 0.0121
         },
         {
           "score": "3-2",
@@ -7772,7 +7772,7 @@
         },
         {
           "score": "1-5",
-          "prob": 0.011
+          "prob": 0.0108
         },
         {
           "score": "3-3",
@@ -7781,24 +7781,24 @@
       ]
     },
     "rich": {
-      "lambda_home": 0.909,
-      "lambda_away": 1.928,
-      "p_home": 0.1715,
-      "p_draw": 0.2161,
-      "p_away": 0.6124,
+      "lambda_home": 0.91,
+      "lambda_away": 1.917,
+      "p_home": 0.173,
+      "p_draw": 0.2172,
+      "p_away": 0.6098,
       "prediction": "0-1",
       "top20": [
         {
           "score": "0-1",
-          "prob": 0.113
+          "prob": 0.1135
         },
         {
           "score": "0-2",
-          "prob": 0.109
+          "prob": 0.1088
         },
         {
           "score": "1-1",
-          "prob": 0.1027
+          "prob": 0.1032
         },
         {
           "score": "1-2",
@@ -7806,23 +7806,23 @@
         },
         {
           "score": "0-3",
-          "prob": 0.07
+          "prob": 0.0695
         },
         {
           "score": "1-3",
-          "prob": 0.0636
+          "prob": 0.0633
         },
         {
           "score": "0-0",
-          "prob": 0.0586
+          "prob": 0.0592
         },
         {
           "score": "1-0",
-          "prob": 0.0533
+          "prob": 0.0538
         },
         {
           "score": "2-1",
-          "prob": 0.0467
+          "prob": 0.047
         },
         {
           "score": "2-2",
@@ -7830,43 +7830,43 @@
         },
         {
           "score": "0-4",
-          "prob": 0.0338
+          "prob": 0.0333
         },
         {
           "score": "1-4",
-          "prob": 0.0307
+          "prob": 0.0303
         },
         {
           "score": "2-3",
-          "prob": 0.0289
+          "prob": 0.0288
         },
         {
           "score": "2-0",
-          "prob": 0.0242
+          "prob": 0.0245
         },
         {
           "score": "3-1",
-          "prob": 0.0141
+          "prob": 0.0142
         },
         {
           "score": "2-4",
-          "prob": 0.0139
+          "prob": 0.0138
         },
         {
           "score": "3-2",
-          "prob": 0.0136
+          "prob": 0.0137
         },
         {
           "score": "0-5",
-          "prob": 0.013
+          "prob": 0.0128
         },
         {
           "score": "1-5",
-          "prob": 0.0118
+          "prob": 0.0116
         },
         {
           "score": "3-3",
-          "prob": 0.0088
+          "prob": 0.0087
         }
       ]
     }
@@ -7876,87 +7876,87 @@
     "home": "Cape Verde",
     "away": "Saudi Arabia",
     "start_time": "2026-06-27T00:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
-      "home": 0.3824,
-      "away": 0.3358,
-      "draw": 0.2818
+      "home": 0.3862,
+      "away": 0.3327,
+      "draw": 0.2811
     },
     "base": {
-      "lambda_home": 1.346,
-      "lambda_away": 1.188,
-      "p_home": 0.404,
-      "p_draw": 0.2669,
-      "p_away": 0.3291,
+      "lambda_home": 1.354,
+      "lambda_away": 1.183,
+      "p_home": 0.4072,
+      "p_draw": 0.2665,
+      "p_away": 0.3263,
       "prediction": "1-0",
       "top20": [
         {
           "score": "1-1",
-          "prob": 0.1269
+          "prob": 0.1267
         },
         {
           "score": "1-0",
-          "prob": 0.1068
+          "prob": 0.107
         },
         {
           "score": "0-1",
-          "prob": 0.0942
+          "prob": 0.0935
         },
         {
           "score": "2-1",
-          "prob": 0.0854
+          "prob": 0.0858
         },
         {
           "score": "0-0",
-          "prob": 0.0793
+          "prob": 0.079
         },
         {
           "score": "1-2",
-          "prob": 0.0754
+          "prob": 0.075
         },
         {
           "score": "2-0",
-          "prob": 0.0719
+          "prob": 0.0725
         },
         {
           "score": "0-2",
-          "prob": 0.056
+          "prob": 0.0553
         },
         {
           "score": "2-2",
-          "prob": 0.0507
+          "prob": 0.0508
         },
         {
           "score": "3-1",
-          "prob": 0.0383
+          "prob": 0.0387
         },
         {
           "score": "3-0",
-          "prob": 0.0323
+          "prob": 0.0327
         },
         {
           "score": "1-3",
-          "prob": 0.0298
+          "prob": 0.0296
         },
         {
           "score": "3-2",
-          "prob": 0.0228
+          "prob": 0.0229
         },
         {
           "score": "0-3",
-          "prob": 0.0222
+          "prob": 0.0218
         },
         {
           "score": "2-3",
-          "prob": 0.0201
+          "prob": 0.02
         },
         {
           "score": "4-1",
-          "prob": 0.0129
+          "prob": 0.0131
         },
         {
           "score": "4-0",
-          "prob": 0.0109
+          "prob": 0.0111
         },
         {
           "score": "3-3",
@@ -7964,89 +7964,89 @@
         },
         {
           "score": "1-4",
-          "prob": 0.0089
+          "prob": 0.0087
         },
         {
           "score": "4-2",
-          "prob": 0.0077
+          "prob": 0.0078
         }
       ]
     },
     "rich": {
-      "lambda_home": 1.411,
-      "lambda_away": 1.199,
-      "p_home": 0.4187,
-      "p_draw": 0.2616,
-      "p_away": 0.3198,
+      "lambda_home": 1.419,
+      "lambda_away": 1.195,
+      "p_home": 0.4216,
+      "p_draw": 0.2611,
+      "p_away": 0.3173,
       "prediction": "1-0",
       "top20": [
         {
           "score": "1-1",
-          "prob": 0.1244
+          "prob": 0.1242
         },
         {
           "score": "1-0",
-          "prob": 0.1037
-        },
-        {
-          "score": "0-1",
-          "prob": 0.0882
+          "prob": 0.1039
         },
         {
           "score": "2-1",
-          "prob": 0.0878
+          "prob": 0.0881
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0875
         },
         {
           "score": "1-2",
-          "prob": 0.0746
-        },
-        {
-          "score": "0-0",
-          "prob": 0.0735
+          "prob": 0.0742
         },
         {
           "score": "2-0",
+          "prob": 0.0737
+        },
+        {
+          "score": "0-0",
           "prob": 0.0732
         },
         {
-          "score": "0-2",
-          "prob": 0.0529
+          "score": "2-2",
+          "prob": 0.0527
         },
         {
-          "score": "2-2",
-          "prob": 0.0526
+          "score": "0-2",
+          "prob": 0.0523
         },
         {
           "score": "3-1",
-          "prob": 0.0413
+          "prob": 0.0417
         },
         {
           "score": "3-0",
-          "prob": 0.0344
+          "prob": 0.0349
         },
         {
           "score": "1-3",
-          "prob": 0.0298
+          "prob": 0.0296
         },
         {
           "score": "3-2",
-          "prob": 0.0247
-        },
-        {
-          "score": "0-3",
-          "prob": 0.0211
+          "prob": 0.0249
         },
         {
           "score": "2-3",
           "prob": 0.021
         },
         {
+          "score": "0-3",
+          "prob": 0.0208
+        },
+        {
           "score": "4-1",
-          "prob": 0.0146
+          "prob": 0.0148
         },
         {
           "score": "4-0",
-          "prob": 0.0121
+          "prob": 0.0124
         },
         {
           "score": "3-3",
@@ -8054,203 +8054,11 @@
         },
         {
           "score": "1-4",
-          "prob": 0.0089
+          "prob": 0.0088
         },
         {
           "score": "4-2",
-          "prob": 0.0087
-        }
-      ]
-    }
-  },
-  {
-    "matchup_id": 1631338313,
-    "home": "New Zealand",
-    "away": "Belgium",
-    "start_time": "2026-06-27T03:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
-    "moneyline": {
-      "home": 0.0574,
-      "away": 0.8225,
-      "draw": 0.1201
-    },
-    "base": {
-      "lambda_home": 0.658,
-      "lambda_away": 2.997,
-      "p_home": 0.0529,
-      "p_draw": 0.1082,
-      "p_away": 0.8386,
-      "prediction": "0-2",
-      "top20": [
-        {
-          "score": "0-2",
-          "prob": 0.1162
-        },
-        {
-          "score": "0-3",
-          "prob": 0.116
-        },
-        {
-          "score": "0-4",
-          "prob": 0.087
-        },
-        {
-          "score": "0-1",
-          "prob": 0.0775
-        },
-        {
-          "score": "1-2",
-          "prob": 0.0764
-        },
-        {
-          "score": "1-3",
-          "prob": 0.0763
-        },
-        {
-          "score": "1-4",
-          "prob": 0.0572
-        },
-        {
-          "score": "0-5",
-          "prob": 0.0521
-        },
-        {
-          "score": "1-1",
-          "prob": 0.051
-        },
-        {
-          "score": "1-5",
-          "prob": 0.0343
-        },
-        {
-          "score": "0-6",
-          "prob": 0.026
-        },
-        {
-          "score": "0-0",
-          "prob": 0.0259
-        },
-        {
-          "score": "2-2",
-          "prob": 0.0251
-        },
-        {
-          "score": "2-3",
-          "prob": 0.0251
-        },
-        {
-          "score": "2-4",
-          "prob": 0.0188
-        },
-        {
-          "score": "1-6",
-          "prob": 0.0171
-        },
-        {
-          "score": "1-0",
-          "prob": 0.017
-        },
-        {
-          "score": "2-1",
-          "prob": 0.0168
-        },
-        {
-          "score": "2-5",
-          "prob": 0.0113
-        },
-        {
-          "score": "0-7",
-          "prob": 0.0111
-        }
-      ]
-    },
-    "rich": {
-      "lambda_home": 0.596,
-      "lambda_away": 2.884,
-      "p_home": 0.0506,
-      "p_draw": 0.1114,
-      "p_away": 0.8378,
-      "prediction": "0-2",
-      "top20": [
-        {
-          "score": "0-2",
-          "prob": 0.1281
-        },
-        {
-          "score": "0-3",
-          "prob": 0.1232
-        },
-        {
-          "score": "0-1",
-          "prob": 0.0888
-        },
-        {
-          "score": "0-4",
-          "prob": 0.0888
-        },
-        {
-          "score": "1-2",
-          "prob": 0.0764
-        },
-        {
-          "score": "1-3",
-          "prob": 0.0734
-        },
-        {
-          "score": "1-1",
-          "prob": 0.053
-        },
-        {
-          "score": "1-4",
-          "prob": 0.0529
-        },
-        {
-          "score": "0-5",
-          "prob": 0.0512
-        },
-        {
-          "score": "0-0",
-          "prob": 0.0308
-        },
-        {
-          "score": "1-5",
-          "prob": 0.0305
-        },
-        {
-          "score": "0-6",
-          "prob": 0.0246
-        },
-        {
-          "score": "2-2",
-          "prob": 0.0228
-        },
-        {
-          "score": "2-3",
-          "prob": 0.0219
-        },
-        {
-          "score": "1-0",
-          "prob": 0.0184
-        },
-        {
-          "score": "2-1",
-          "prob": 0.0158
-        },
-        {
-          "score": "2-4",
-          "prob": 0.0158
-        },
-        {
-          "score": "1-6",
-          "prob": 0.0147
-        },
-        {
-          "score": "0-7",
-          "prob": 0.0101
-        },
-        {
-          "score": "2-5",
-          "prob": 0.0091
+          "prob": 0.0088
         }
       ]
     }
@@ -8260,51 +8068,51 @@
     "home": "Egypt",
     "away": "Iran",
     "start_time": "2026-06-27T03:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
-      "home": 0.3824,
-      "away": 0.2486,
-      "draw": 0.369
+      "home": 0.3853,
+      "away": 0.2472,
+      "draw": 0.3675
     },
     "base": {
-      "lambda_home": 1.346,
-      "lambda_away": 1.056,
-      "p_home": 0.4335,
-      "p_draw": 0.2729,
-      "p_away": 0.2936,
+      "lambda_home": 1.35,
+      "lambda_away": 1.053,
+      "p_home": 0.4354,
+      "p_draw": 0.2726,
+      "p_away": 0.292,
       "prediction": "1-0",
       "top20": [
         {
           "score": "1-1",
-          "prob": 0.1287
+          "prob": 0.1286
         },
         {
           "score": "1-0",
-          "prob": 0.1219
+          "prob": 0.1221
         },
         {
           "score": "0-1",
-          "prob": 0.0957
+          "prob": 0.0952
         },
         {
           "score": "0-0",
-          "prob": 0.0906
+          "prob": 0.0904
         },
         {
           "score": "2-1",
-          "prob": 0.0866
+          "prob": 0.0868
         },
         {
           "score": "2-0",
-          "prob": 0.082
+          "prob": 0.0824
         },
         {
           "score": "1-2",
-          "prob": 0.068
+          "prob": 0.0677
         },
         {
           "score": "0-2",
-          "prob": 0.0505
+          "prob": 0.0501
         },
         {
           "score": "2-2",
@@ -8312,35 +8120,35 @@
         },
         {
           "score": "3-1",
-          "prob": 0.0388
+          "prob": 0.0391
         },
         {
           "score": "3-0",
-          "prob": 0.0368
+          "prob": 0.0371
         },
         {
           "score": "1-3",
-          "prob": 0.0239
+          "prob": 0.0238
         },
         {
           "score": "3-2",
-          "prob": 0.0205
+          "prob": 0.0206
         },
         {
           "score": "0-3",
-          "prob": 0.0178
+          "prob": 0.0176
         },
         {
           "score": "2-3",
-          "prob": 0.0161
+          "prob": 0.016
         },
         {
           "score": "4-1",
-          "prob": 0.0131
+          "prob": 0.0132
         },
         {
           "score": "4-0",
-          "prob": 0.0124
+          "prob": 0.0125
         },
         {
           "score": "3-3",
@@ -8357,44 +8165,44 @@
       ]
     },
     "rich": {
-      "lambda_home": 1.269,
-      "lambda_away": 0.936,
-      "p_home": 0.4406,
-      "p_draw": 0.2856,
-      "p_away": 0.2737,
+      "lambda_home": 1.274,
+      "lambda_away": 0.933,
+      "p_home": 0.4426,
+      "p_draw": 0.2853,
+      "p_away": 0.2722,
       "prediction": "1-0",
       "top20": [
         {
           "score": "1-0",
-          "prob": 0.14
+          "prob": 0.1402
         },
         {
           "score": "1-1",
-          "prob": 0.1309
+          "prob": 0.1308
         },
         {
           "score": "0-0",
-          "prob": 0.1103
+          "prob": 0.1101
         },
         {
           "score": "0-1",
-          "prob": 0.1032
+          "prob": 0.1027
         },
         {
           "score": "2-0",
-          "prob": 0.0888
+          "prob": 0.0893
         },
         {
           "score": "2-1",
-          "prob": 0.0831
+          "prob": 0.0833
         },
         {
           "score": "1-2",
-          "prob": 0.0613
+          "prob": 0.061
         },
         {
           "score": "0-2",
-          "prob": 0.0483
+          "prob": 0.0479
         },
         {
           "score": "2-2",
@@ -8402,23 +8210,23 @@
         },
         {
           "score": "3-0",
-          "prob": 0.0376
+          "prob": 0.0379
         },
         {
           "score": "3-1",
-          "prob": 0.0352
+          "prob": 0.0354
         },
         {
           "score": "1-3",
-          "prob": 0.0191
+          "prob": 0.019
         },
         {
           "score": "3-2",
-          "prob": 0.0164
+          "prob": 0.0165
         },
         {
           "score": "0-3",
-          "prob": 0.0151
+          "prob": 0.0149
         },
         {
           "score": "2-3",
@@ -8426,15 +8234,15 @@
         },
         {
           "score": "4-0",
-          "prob": 0.0119
+          "prob": 0.0121
         },
         {
           "score": "4-1",
-          "prob": 0.0112
+          "prob": 0.0113
         },
         {
           "score": "4-2",
-          "prob": 0.0052
+          "prob": 0.0053
         },
         {
           "score": "3-3",
@@ -8442,199 +8250,199 @@
         },
         {
           "score": "1-4",
-          "prob": 0.0045
+          "prob": 0.0044
         }
       ]
     }
   },
   {
-    "matchup_id": 1631338307,
-    "home": "Panama",
-    "away": "England",
-    "start_time": "2026-06-27T21:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "matchup_id": 1631338313,
+    "home": "New Zealand",
+    "away": "Belgium",
+    "start_time": "2026-06-27T03:00:00Z",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
-      "home": 0.0614,
-      "away": 0.8223,
-      "draw": 0.1163
+      "home": 0.0585,
+      "away": 0.8198,
+      "draw": 0.1216
     },
     "base": {
-      "lambda_home": 0.698,
-      "lambda_away": 3.053,
-      "p_home": 0.055,
-      "p_draw": 0.1075,
-      "p_away": 0.8372,
-      "prediction": "0-3",
-      "top20": [
-        {
-          "score": "0-3",
-          "prob": 0.1114
-        },
-        {
-          "score": "0-2",
-          "prob": 0.1095
-        },
-        {
-          "score": "0-4",
-          "prob": 0.085
-        },
-        {
-          "score": "1-3",
-          "prob": 0.0778
-        },
-        {
-          "score": "1-2",
-          "prob": 0.0764
-        },
-        {
-          "score": "0-1",
-          "prob": 0.0718
-        },
-        {
-          "score": "1-4",
-          "prob": 0.0594
-        },
-        {
-          "score": "0-5",
-          "prob": 0.0519
-        },
-        {
-          "score": "1-1",
-          "prob": 0.0501
-        },
-        {
-          "score": "1-5",
-          "prob": 0.0362
-        },
-        {
-          "score": "2-3",
-          "prob": 0.0271
-        },
-        {
-          "score": "2-2",
-          "prob": 0.0267
-        },
-        {
-          "score": "0-6",
-          "prob": 0.0264
-        },
-        {
-          "score": "0-0",
-          "prob": 0.0235
-        },
-        {
-          "score": "2-4",
-          "prob": 0.0207
-        },
-        {
-          "score": "1-6",
-          "prob": 0.0184
-        },
-        {
-          "score": "2-1",
-          "prob": 0.0175
-        },
-        {
-          "score": "1-0",
-          "prob": 0.0164
-        },
-        {
-          "score": "2-5",
-          "prob": 0.0126
-        },
-        {
-          "score": "0-7",
-          "prob": 0.0115
-        }
-      ]
-    },
-    "rich": {
-      "lambda_home": 0.631,
-      "lambda_away": 2.927,
-      "p_home": 0.0528,
-      "p_draw": 0.1111,
-      "p_away": 0.8359,
+      "lambda_home": 0.659,
+      "lambda_away": 2.982,
+      "p_home": 0.0536,
+      "p_draw": 0.1093,
+      "p_away": 0.8367,
       "prediction": "0-2",
       "top20": [
         {
           "score": "0-2",
-          "prob": 0.1221
+          "prob": 0.1166
         },
         {
           "score": "0-3",
-          "prob": 0.1191
+          "prob": 0.1159
         },
         {
           "score": "0-4",
-          "prob": 0.0871
+          "prob": 0.0864
         },
         {
           "score": "0-1",
-          "prob": 0.0834
+          "prob": 0.0782
         },
         {
           "score": "1-2",
-          "prob": 0.077
+          "prob": 0.0768
         },
         {
           "score": "1-3",
-          "prob": 0.0752
+          "prob": 0.0764
         },
         {
           "score": "1-4",
-          "prob": 0.055
+          "prob": 0.0569
         },
         {
           "score": "1-1",
-          "prob": 0.0526
+          "prob": 0.0515
         },
         {
           "score": "0-5",
-          "prob": 0.051
+          "prob": 0.0515
         },
         {
           "score": "1-5",
-          "prob": 0.0322
+          "prob": 0.034
         },
         {
           "score": "0-0",
-          "prob": 0.0285
+          "prob": 0.0262
         },
         {
           "score": "0-6",
-          "prob": 0.0249
+          "prob": 0.0256
         },
         {
           "score": "2-2",
-          "prob": 0.0243
+          "prob": 0.0253
         },
         {
           "score": "2-3",
-          "prob": 0.0237
-        },
-        {
-          "score": "1-0",
-          "prob": 0.018
+          "prob": 0.0252
         },
         {
           "score": "2-4",
+          "prob": 0.0188
+        },
+        {
+          "score": "1-0",
           "prob": 0.0173
         },
         {
           "score": "2-1",
-          "prob": 0.0166
+          "prob": 0.017
         },
         {
           "score": "1-6",
-          "prob": 0.0157
-        },
-        {
-          "score": "0-7",
-          "prob": 0.0104
+          "prob": 0.0169
         },
         {
           "score": "2-5",
-          "prob": 0.0102
+          "prob": 0.0112
+        },
+        {
+          "score": "0-7",
+          "prob": 0.0109
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 0.598,
+      "lambda_away": 2.868,
+      "p_home": 0.0515,
+      "p_draw": 0.1127,
+      "p_away": 0.8356,
+      "prediction": "0-2",
+      "top20": [
+        {
+          "score": "0-2",
+          "prob": 0.1284
+        },
+        {
+          "score": "0-3",
+          "prob": 0.1228
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0896
+        },
+        {
+          "score": "0-4",
+          "prob": 0.088
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0769
+        },
+        {
+          "score": "1-3",
+          "prob": 0.0735
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0536
+        },
+        {
+          "score": "1-4",
+          "prob": 0.0527
+        },
+        {
+          "score": "0-5",
+          "prob": 0.0505
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0312
+        },
+        {
+          "score": "1-5",
+          "prob": 0.0302
+        },
+        {
+          "score": "0-6",
+          "prob": 0.0241
+        },
+        {
+          "score": "2-2",
+          "prob": 0.023
+        },
+        {
+          "score": "2-3",
+          "prob": 0.022
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0187
+        },
+        {
+          "score": "2-1",
+          "prob": 0.016
+        },
+        {
+          "score": "2-4",
+          "prob": 0.0158
+        },
+        {
+          "score": "1-6",
+          "prob": 0.0144
+        },
+        {
+          "score": "0-7",
+          "prob": 0.0099
+        },
+        {
+          "score": "2-5",
+          "prob": 0.009
         }
       ]
     }
@@ -8644,18 +8452,18 @@
     "home": "Croatia",
     "away": "Ghana",
     "start_time": "2026-06-27T21:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
-      "home": 0.5409,
-      "away": 0.1636,
-      "draw": 0.2955
+      "home": 0.5372,
+      "away": 0.1655,
+      "draw": 0.2973
     },
     "base": {
-      "lambda_home": 1.633,
-      "lambda_away": 0.895,
-      "p_home": 0.5478,
-      "p_draw": 0.2467,
-      "p_away": 0.2055,
+      "lambda_home": 1.625,
+      "lambda_away": 0.898,
+      "p_home": 0.545,
+      "p_draw": 0.2476,
+      "p_away": 0.2074,
       "prediction": "1-0",
       "top20": [
         {
@@ -8664,75 +8472,75 @@
         },
         {
           "score": "1-1",
-          "prob": 0.1166
+          "prob": 0.1171
         },
         {
           "score": "2-0",
-          "prob": 0.1065
+          "prob": 0.106
         },
         {
           "score": "2-1",
-          "prob": 0.0952
+          "prob": 0.0951
         },
         {
           "score": "0-0",
-          "prob": 0.0798
+          "prob": 0.0802
         },
         {
           "score": "0-1",
-          "prob": 0.0714
+          "prob": 0.072
         },
         {
           "score": "3-0",
-          "prob": 0.058
+          "prob": 0.0574
         },
         {
           "score": "1-2",
-          "prob": 0.0522
+          "prob": 0.0525
         },
         {
           "score": "3-1",
-          "prob": 0.0519
+          "prob": 0.0515
         },
         {
           "score": "2-2",
-          "prob": 0.0426
+          "prob": 0.0427
         },
         {
           "score": "0-2",
-          "prob": 0.0319
+          "prob": 0.0323
         },
         {
           "score": "4-0",
-          "prob": 0.0237
+          "prob": 0.0233
         },
         {
           "score": "3-2",
-          "prob": 0.0232
+          "prob": 0.0231
         },
         {
           "score": "4-1",
-          "prob": 0.0212
+          "prob": 0.0209
         },
         {
           "score": "1-3",
-          "prob": 0.0156
+          "prob": 0.0157
         },
         {
           "score": "2-3",
-          "prob": 0.0127
+          "prob": 0.0128
         },
         {
           "score": "0-3",
-          "prob": 0.0095
+          "prob": 0.0097
         },
         {
           "score": "4-2",
-          "prob": 0.0095
+          "prob": 0.0094
         },
         {
           "score": "5-0",
-          "prob": 0.0077
+          "prob": 0.0076
         },
         {
           "score": "3-3",
@@ -8741,11 +8549,11 @@
       ]
     },
     "rich": {
-      "lambda_home": 1.641,
-      "lambda_away": 0.826,
-      "p_home": 0.5672,
-      "p_draw": 0.2452,
-      "p_away": 0.1876,
+      "lambda_home": 1.633,
+      "lambda_away": 0.829,
+      "p_home": 0.5642,
+      "p_draw": 0.2462,
+      "p_away": 0.1896,
       "prediction": "1-0",
       "top20": [
         {
@@ -8754,47 +8562,47 @@
         },
         {
           "score": "1-1",
-          "prob": 0.115
+          "prob": 0.1155
         },
         {
           "score": "2-0",
-          "prob": 0.1142
+          "prob": 0.1136
         },
         {
           "score": "2-1",
-          "prob": 0.0944
+          "prob": 0.0942
         },
         {
           "score": "0-0",
-          "prob": 0.0848
+          "prob": 0.0853
         },
         {
           "score": "0-1",
-          "prob": 0.0701
+          "prob": 0.0707
         },
         {
           "score": "3-0",
-          "prob": 0.0625
+          "prob": 0.0618
         },
         {
           "score": "3-1",
-          "prob": 0.0516
+          "prob": 0.0513
         },
         {
           "score": "1-2",
-          "prob": 0.0475
+          "prob": 0.0479
         },
         {
           "score": "2-2",
-          "prob": 0.039
+          "prob": 0.0391
         },
         {
           "score": "0-2",
-          "prob": 0.0289
+          "prob": 0.0293
         },
         {
           "score": "4-0",
-          "prob": 0.0256
+          "prob": 0.0252
         },
         {
           "score": "3-2",
@@ -8802,15 +8610,15 @@
         },
         {
           "score": "4-1",
-          "prob": 0.0212
+          "prob": 0.0209
         },
         {
           "score": "1-3",
-          "prob": 0.0131
+          "prob": 0.0132
         },
         {
           "score": "2-3",
-          "prob": 0.0107
+          "prob": 0.0108
         },
         {
           "score": "4-2",
@@ -8818,207 +8626,207 @@
         },
         {
           "score": "5-0",
-          "prob": 0.0084
+          "prob": 0.0082
         },
         {
           "score": "0-3",
-          "prob": 0.008
+          "prob": 0.0081
         },
         {
           "score": "5-1",
-          "prob": 0.007
+          "prob": 0.0068
         }
       ]
     }
   },
   {
-    "matchup_id": 1631342072,
-    "home": "DR Congo",
-    "away": "Uzbekistan",
-    "start_time": "2026-06-27T23:30:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "matchup_id": 1631338307,
+    "home": "Panama",
+    "away": "England",
+    "start_time": "2026-06-27T21:00:00Z",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
-      "home": 0.5464,
-      "away": 0.2287,
-      "draw": 0.2249
+      "home": 0.0624,
+      "away": 0.82,
+      "draw": 0.1176
     },
     "base": {
-      "lambda_home": 1.703,
-      "lambda_away": 1.013,
-      "p_home": 0.5355,
-      "p_draw": 0.2399,
-      "p_away": 0.2246,
-      "prediction": "1-0",
+      "lambda_home": 0.696,
+      "lambda_away": 3.035,
+      "p_home": 0.0555,
+      "p_draw": 0.1085,
+      "p_away": 0.8357,
+      "prediction": "0-3",
       "top20": [
         {
-          "score": "1-1",
-          "prob": 0.1141
-        },
-        {
-          "score": "1-0",
-          "prob": 0.1126
-        },
-        {
-          "score": "2-1",
-          "prob": 0.0972
-        },
-        {
-          "score": "2-0",
-          "prob": 0.0959
-        },
-        {
-          "score": "0-1",
-          "prob": 0.067
-        },
-        {
-          "score": "0-0",
-          "prob": 0.0661
-        },
-        {
-          "score": "1-2",
-          "prob": 0.0578
-        },
-        {
-          "score": "3-1",
-          "prob": 0.0552
-        },
-        {
-          "score": "3-0",
-          "prob": 0.0544
-        },
-        {
-          "score": "2-2",
-          "prob": 0.0492
+          "score": "0-3",
+          "prob": 0.1117
         },
         {
           "score": "0-2",
-          "prob": 0.0339
+          "prob": 0.1104
         },
         {
-          "score": "3-2",
-          "prob": 0.028
-        },
-        {
-          "score": "4-1",
-          "prob": 0.0235
-        },
-        {
-          "score": "4-0",
-          "prob": 0.0232
+          "score": "0-4",
+          "prob": 0.0848
         },
         {
           "score": "1-3",
-          "prob": 0.0195
+          "prob": 0.0777
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0768
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0728
+        },
+        {
+          "score": "1-4",
+          "prob": 0.059
+        },
+        {
+          "score": "0-5",
+          "prob": 0.0514
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0506
+        },
+        {
+          "score": "1-5",
+          "prob": 0.0358
         },
         {
           "score": "2-3",
-          "prob": 0.0166
+          "prob": 0.027
         },
         {
-          "score": "4-2",
-          "prob": 0.0119
+          "score": "2-2",
+          "prob": 0.0267
         },
         {
-          "score": "0-3",
-          "prob": 0.0115
+          "score": "0-6",
+          "prob": 0.026
         },
         {
-          "score": "3-3",
-          "prob": 0.0094
+          "score": "0-0",
+          "prob": 0.024
         },
         {
-          "score": "5-1",
-          "prob": 0.008
+          "score": "2-4",
+          "prob": 0.0205
+        },
+        {
+          "score": "1-6",
+          "prob": 0.0181
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0176
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0167
+        },
+        {
+          "score": "2-5",
+          "prob": 0.0125
+        },
+        {
+          "score": "0-7",
+          "prob": 0.0113
         }
       ]
     },
     "rich": {
-      "lambda_home": 1.767,
-      "lambda_away": 1.014,
-      "p_home": 0.5503,
-      "p_draw": 0.2339,
-      "p_away": 0.2158,
-      "prediction": "1-0",
+      "lambda_home": 0.632,
+      "lambda_away": 2.91,
+      "p_home": 0.0536,
+      "p_draw": 0.1123,
+      "p_away": 0.8338,
+      "prediction": "0-2",
       "top20": [
         {
-          "score": "1-1",
-          "prob": 0.1111
-        },
-        {
-          "score": "1-0",
-          "prob": 0.1095
-        },
-        {
-          "score": "2-1",
-          "prob": 0.0981
-        },
-        {
-          "score": "2-0",
-          "prob": 0.0967
-        },
-        {
-          "score": "0-1",
-          "prob": 0.0629
-        },
-        {
-          "score": "0-0",
-          "prob": 0.062
-        },
-        {
-          "score": "3-1",
-          "prob": 0.0578
-        },
-        {
-          "score": "3-0",
-          "prob": 0.057
-        },
-        {
-          "score": "1-2",
-          "prob": 0.0563
-        },
-        {
-          "score": "2-2",
-          "prob": 0.0497
-        },
-        {
           "score": "0-2",
-          "prob": 0.0319
-        },
-        {
-          "score": "3-2",
-          "prob": 0.0293
-        },
-        {
-          "score": "4-1",
-          "prob": 0.0255
-        },
-        {
-          "score": "4-0",
-          "prob": 0.0252
-        },
-        {
-          "score": "1-3",
-          "prob": 0.019
-        },
-        {
-          "score": "2-3",
-          "prob": 0.0168
-        },
-        {
-          "score": "4-2",
-          "prob": 0.0129
+          "prob": 0.1226
         },
         {
           "score": "0-3",
-          "prob": 0.0108
+          "prob": 0.1189
         },
         {
-          "score": "3-3",
-          "prob": 0.0099
+          "score": "0-4",
+          "prob": 0.0865
         },
         {
-          "score": "5-1",
-          "prob": 0.009
+          "score": "0-1",
+          "prob": 0.0843
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0775
+        },
+        {
+          "score": "1-3",
+          "prob": 0.0752
+        },
+        {
+          "score": "1-4",
+          "prob": 0.0547
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0533
+        },
+        {
+          "score": "0-5",
+          "prob": 0.0503
+        },
+        {
+          "score": "1-5",
+          "prob": 0.0318
+        },
+        {
+          "score": "0-0",
+          "prob": 0.029
+        },
+        {
+          "score": "2-2",
+          "prob": 0.0245
+        },
+        {
+          "score": "0-6",
+          "prob": 0.0244
+        },
+        {
+          "score": "2-3",
+          "prob": 0.0238
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0183
+        },
+        {
+          "score": "2-4",
+          "prob": 0.0173
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0168
+        },
+        {
+          "score": "1-6",
+          "prob": 0.0154
+        },
+        {
+          "score": "0-7",
+          "prob": 0.0101
+        },
+        {
+          "score": "2-5",
+          "prob": 0.0101
         }
       ]
     }
@@ -9028,23 +8836,23 @@
     "home": "Colombia",
     "away": "Portugal",
     "start_time": "2026-06-27T23:30:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
-      "home": 0.2335,
-      "away": 0.5153,
-      "draw": 0.2512
+      "home": 0.2365,
+      "away": 0.5115,
+      "draw": 0.252
     },
     "base": {
-      "lambda_home": 1.09,
-      "lambda_away": 1.7,
-      "p_home": 0.2434,
-      "p_draw": 0.2401,
-      "p_away": 0.5165,
+      "lambda_home": 1.094,
+      "lambda_away": 1.691,
+      "p_home": 0.2458,
+      "p_draw": 0.2409,
+      "p_away": 0.5133,
       "prediction": "0-1",
       "top20": [
         {
           "score": "1-1",
-          "prob": 0.1138
+          "prob": 0.1142
         },
         {
           "score": "0-1",
@@ -9052,67 +8860,67 @@
         },
         {
           "score": "1-2",
-          "prob": 0.0967
+          "prob": 0.0966
         },
         {
           "score": "0-2",
-          "prob": 0.0888
+          "prob": 0.0882
         },
         {
           "score": "1-0",
-          "prob": 0.0669
+          "prob": 0.0675
         },
         {
           "score": "2-1",
-          "prob": 0.062
+          "prob": 0.0625
         },
         {
           "score": "0-0",
-          "prob": 0.0614
+          "prob": 0.0617
         },
         {
           "score": "1-3",
-          "prob": 0.0548
+          "prob": 0.0544
         },
         {
           "score": "2-2",
-          "prob": 0.0527
+          "prob": 0.0528
         },
         {
           "score": "0-3",
-          "prob": 0.0503
+          "prob": 0.0497
         },
         {
           "score": "2-0",
-          "prob": 0.0365
+          "prob": 0.0369
         },
         {
           "score": "2-3",
-          "prob": 0.0299
+          "prob": 0.0298
         },
         {
           "score": "1-4",
-          "prob": 0.0233
+          "prob": 0.023
         },
         {
           "score": "3-1",
-          "prob": 0.0225
+          "prob": 0.0228
         },
         {
           "score": "0-4",
-          "prob": 0.0214
+          "prob": 0.021
         },
         {
           "score": "3-2",
-          "prob": 0.0192
+          "prob": 0.0193
         },
         {
           "score": "3-0",
-          "prob": 0.0132
+          "prob": 0.0135
         },
         {
           "score": "2-4",
-          "prob": 0.0127
+          "prob": 0.0126
         },
         {
           "score": "3-3",
@@ -9120,89 +8928,89 @@
         },
         {
           "score": "1-5",
-          "prob": 0.0079
+          "prob": 0.0078
         }
       ]
     },
     "rich": {
-      "lambda_home": 1.057,
-      "lambda_away": 1.61,
-      "p_home": 0.2492,
-      "p_draw": 0.2485,
-      "p_away": 0.5023,
+      "lambda_home": 1.062,
+      "lambda_away": 1.602,
+      "p_home": 0.2519,
+      "p_draw": 0.2493,
+      "p_away": 0.4988,
       "prediction": "0-1",
       "top20": [
         {
           "score": "1-1",
-          "prob": 0.1182
+          "prob": 0.1185
         },
         {
           "score": "0-1",
-          "prob": 0.1118
+          "prob": 0.1116
         },
         {
           "score": "1-2",
-          "prob": 0.0952
+          "prob": 0.0949
         },
         {
           "score": "0-2",
-          "prob": 0.09
+          "prob": 0.0893
         },
         {
           "score": "1-0",
-          "prob": 0.0734
+          "prob": 0.074
         },
         {
           "score": "0-0",
-          "prob": 0.0694
+          "prob": 0.0697
         },
         {
           "score": "2-1",
-          "prob": 0.0625
+          "prob": 0.063
         },
         {
           "score": "1-3",
-          "prob": 0.0511
+          "prob": 0.0507
         },
         {
           "score": "2-2",
-          "prob": 0.0503
+          "prob": 0.0504
         },
         {
           "score": "0-3",
-          "prob": 0.0483
+          "prob": 0.0477
         },
         {
           "score": "2-0",
-          "prob": 0.0388
+          "prob": 0.0393
         },
         {
           "score": "2-3",
-          "prob": 0.027
+          "prob": 0.0269
         },
         {
           "score": "3-1",
-          "prob": 0.022
+          "prob": 0.0223
         },
         {
           "score": "1-4",
-          "prob": 0.0206
+          "prob": 0.0203
         },
         {
           "score": "0-4",
-          "prob": 0.0195
+          "prob": 0.0191
         },
         {
           "score": "3-2",
-          "prob": 0.0177
+          "prob": 0.0179
         },
         {
           "score": "3-0",
-          "prob": 0.0137
+          "prob": 0.0139
         },
         {
           "score": "2-4",
-          "prob": 0.0109
+          "prob": 0.0108
         },
         {
           "score": "3-3",
@@ -9210,7 +9018,199 @@
         },
         {
           "score": "1-5",
-          "prob": 0.0066
+          "prob": 0.0065
+        }
+      ]
+    }
+  },
+  {
+    "matchup_id": 1631342072,
+    "home": "DR Congo",
+    "away": "Uzbekistan",
+    "start_time": "2026-06-27T23:30:00Z",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
+    "moneyline": {
+      "home": 0.5495,
+      "away": 0.2263,
+      "draw": 0.2242
+    },
+    "base": {
+      "lambda_home": 1.709,
+      "lambda_away": 1.008,
+      "p_home": 0.5381,
+      "p_draw": 0.2394,
+      "p_away": 0.2225,
+      "prediction": "1-0",
+      "top20": [
+        {
+          "score": "1-1",
+          "prob": 0.1138
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1129
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0973
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0965
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0666
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0661
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0574
+        },
+        {
+          "score": "3-1",
+          "prob": 0.0554
+        },
+        {
+          "score": "3-0",
+          "prob": 0.055
+        },
+        {
+          "score": "2-2",
+          "prob": 0.049
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0336
+        },
+        {
+          "score": "3-2",
+          "prob": 0.0279
+        },
+        {
+          "score": "4-1",
+          "prob": 0.0237
+        },
+        {
+          "score": "4-0",
+          "prob": 0.0235
+        },
+        {
+          "score": "1-3",
+          "prob": 0.0193
+        },
+        {
+          "score": "2-3",
+          "prob": 0.0165
+        },
+        {
+          "score": "4-2",
+          "prob": 0.0119
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0113
+        },
+        {
+          "score": "3-3",
+          "prob": 0.0094
+        },
+        {
+          "score": "5-1",
+          "prob": 0.0081
+        }
+      ]
+    },
+    "rich": {
+      "lambda_home": 1.772,
+      "lambda_away": 1.01,
+      "p_home": 0.5528,
+      "p_draw": 0.2333,
+      "p_away": 0.2139,
+      "prediction": "1-0",
+      "top20": [
+        {
+          "score": "1-1",
+          "prob": 0.1108
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1097
+        },
+        {
+          "score": "2-1",
+          "prob": 0.0982
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0972
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0625
+        },
+        {
+          "score": "0-0",
+          "prob": 0.0619
+        },
+        {
+          "score": "3-1",
+          "prob": 0.058
+        },
+        {
+          "score": "3-0",
+          "prob": 0.0575
+        },
+        {
+          "score": "1-2",
+          "prob": 0.0559
+        },
+        {
+          "score": "2-2",
+          "prob": 0.0496
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0316
+        },
+        {
+          "score": "3-2",
+          "prob": 0.0293
+        },
+        {
+          "score": "4-1",
+          "prob": 0.0257
+        },
+        {
+          "score": "4-0",
+          "prob": 0.0255
+        },
+        {
+          "score": "1-3",
+          "prob": 0.0188
+        },
+        {
+          "score": "2-3",
+          "prob": 0.0167
+        },
+        {
+          "score": "4-2",
+          "prob": 0.013
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0106
+        },
+        {
+          "score": "3-3",
+          "prob": 0.0099
+        },
+        {
+          "score": "5-1",
+          "prob": 0.0091
         }
       ]
     }
@@ -9220,27 +9220,27 @@
     "home": "Jordan",
     "away": "Argentina",
     "start_time": "2026-06-28T02:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
       "home": 0.0694,
-      "away": 0.8017,
-      "draw": 0.1289
+      "away": 0.8015,
+      "draw": 0.1291
     },
     "base": {
       "lambda_home": 0.802,
       "lambda_away": 2.764,
-      "p_home": 0.0819,
+      "p_home": 0.082,
       "p_draw": 0.1355,
-      "p_away": 0.7824,
+      "p_away": 0.7823,
       "prediction": "0-2",
       "top20": [
         {
           "score": "0-2",
-          "prob": 0.108
+          "prob": 0.1079
         },
         {
           "score": "0-3",
-          "prob": 0.0995
+          "prob": 0.0994
         },
         {
           "score": "1-2",
@@ -9256,11 +9256,11 @@
         },
         {
           "score": "0-4",
-          "prob": 0.0688
+          "prob": 0.0687
         },
         {
           "score": "1-1",
-          "prob": 0.0626
+          "prob": 0.0627
         },
         {
           "score": "1-4",
@@ -9318,7 +9318,7 @@
     },
     "rich": {
       "lambda_home": 0.64,
-      "lambda_away": 2.568,
+      "lambda_away": 2.567,
       "p_home": 0.0708,
       "p_draw": 0.1398,
       "p_away": 0.7893,
@@ -9326,7 +9326,7 @@
       "top20": [
         {
           "score": "0-2",
-          "prob": 0.1333
+          "prob": 0.1334
         },
         {
           "score": "0-3",
@@ -9334,11 +9334,11 @@
         },
         {
           "score": "0-1",
-          "prob": 0.1038
+          "prob": 0.1039
         },
         {
           "score": "1-2",
-          "prob": 0.0854
+          "prob": 0.0853
         },
         {
           "score": "0-4",
@@ -9346,7 +9346,7 @@
         },
         {
           "score": "1-3",
-          "prob": 0.0731
+          "prob": 0.073
         },
         {
           "score": "1-1",
@@ -9358,7 +9358,7 @@
         },
         {
           "score": "0-0",
-          "prob": 0.0404
+          "prob": 0.0405
         },
         {
           "score": "0-5",
@@ -9412,7 +9412,7 @@
     "home": "Algeria",
     "away": "Austria",
     "start_time": "2026-06-28T02:00:00Z",
-    "locked_at": "2026-06-25T00:05:13.524831+00:00",
+    "locked_at": "2026-06-25T04:40:11.921774+00:00",
     "moneyline": {
       "home": 0.241,
       "away": 0.3289,
